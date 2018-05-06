@@ -3,7 +3,7 @@
 <pkgmetadata>
 	<maintainer type="person">
 		<email>azahi@teknik.io</email>
-		<name>Azat Bahawi</name>
+		<name>azahi</name>
 	</maintainer>
 	<use>
 		<flag name="pcf">
