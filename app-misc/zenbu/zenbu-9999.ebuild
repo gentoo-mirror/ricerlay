@@ -5,7 +5,7 @@ EAPI=6
 
 PYTHON_COMPAT=( python2_7 python3_{4,5,6} )
 
-inherit python-any-r1 git-r3
+inherit distutils-r1 git-r3
 
 DESCRIPTION="Jinja2 + YAML based config templater"
 HOMEPAGE="https://github.com/metakirby5/zenbu"
@@ -16,15 +16,13 @@ SLOT="0"
 KEYWORDS=""
 IUSE=""
 
-DEPEND="dev-python/argcomplete
-	dev-python/colorlog
-	dev-python/jinja
-	dev-python/pyyaml
-	dev-python/termcolor
-	dev-python/watchdog
+DOCS=( README.rst LICENSE example )
+
+DEPEND="dev-python/argcomplete[${PYTHON_USEDEP}]
+	dev-python/colorlog[${PYTHON_USEDEP}]
+	dev-python/jinja[${PYTHON_USEDEP}]
+	dev-python/pyyaml[${PYTHON_USEDEP}]
+	dev-python/termcolor[${PYTHON_USEDEP}]
+	dev-python/watchdog[${PYTHON_USEDEP}]
 "
 RDEPEND="${DEPEND}"
-
-src_install() {
-	python_newscript ${PN}.py ${PN}
-}
