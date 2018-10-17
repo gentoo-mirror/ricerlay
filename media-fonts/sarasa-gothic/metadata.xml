@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>azahi@teknik.io</email>
+		<name>azahi</name>
+	</maintainer>
+	<use>
+		<flag name="gothic">Install gothic font variant</flag>
+		<flag name="mono">Install mono font variant</flag>
+		<flag name="term">Install term font variant</flag>
+		<flag name="ttc">Install ttc font files</flag>
+		<flag name="ttf">Install ttf font files</flag>
+		<flag name="ui">Install ui font variant</flag>
+	</use>
+</pkgmetadata>
