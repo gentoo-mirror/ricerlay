@@ -1,0 +1,9 @@
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=install unpack
+DESCRIPTION=Tiny system info for Unix-like operating systems
+EAPI=7
+HOMEPAGE=https://gitlab.com/jschx/ufetch
+LICENSE=ISC
+SLOT=0
+_eclasses_=git-r3	0d4635eeb5a96cd5315597a47eba25c9
+_md5_=503d7634d6ad4b197e6d3aeaec900df9
