@@ -22,3 +22,4 @@
 * `x11-terms/xst` (https://github.com/neeasade/xst)
 * `x11-wm/2bwm` (https://github.com/venam/2bwm)
 * `x11-wm/custard` (https://github.com/Sweets/custard)
+* `x11-wm/kiwmi` (https://github.com/buffet/kiwmi)
