@@ -9,7 +9,7 @@ inherit distutils-r1 git-r3
 
 DESCRIPTION="Jinja2 + YAML based config templater"
 HOMEPAGE="https://github.com/metakirby5/zenbu"
-EGIT_REPO_URI="https://github.com/metakirby5/zenbu"
+EGIT_REPO_URI="https://github.com/metakirby5/zenbu.git"
 
 LICENSE="MIT"
 SLOT="0"
