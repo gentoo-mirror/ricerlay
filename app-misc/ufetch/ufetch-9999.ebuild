@@ -7,7 +7,7 @@ inherit git-r3
 
 DESCRIPTION="Tiny system info for Unix-like operating systems"
 HOMEPAGE="https://gitlab.com/jschx/ufetch"
-EGIT_REPO_URI="https://gitlab.com/jschx/ufetch"
+EGIT_REPO_URI="https://gitlab.com/jschx/ufetch.git"
 
 LICENSE="ISC"
 SLOT="0"
