@@ -20,6 +20,7 @@
 * `x11-misc/bevelbar` (https://www.uninformativ.de/git/bevelbar)
 * `x11-misc/flashfocus` (https://github.com/fennerm/flashfocus)
 * `x11-misc/fsv` (https://github.com/mcuelenaere/fsv)
+* `x11-misc/fyre` (https://github.com/lwilletts/fyre)
 * `x11-misc/keynav` (https://github.com/jordansissel/keynav)
 * `x11-misc/oomox` (https://github.com/actionless/oomox)
 * `x11-misc/sct` (https://github.com/mgudemann/sct)
