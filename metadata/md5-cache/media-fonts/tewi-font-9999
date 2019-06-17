@@ -1,5 +1,5 @@
 DEFINED_PHASES=compile install postinst postrm setup unpack
-DEPEND=x11-libs/libX11 pcf? ( x11-apps/bdftopcf ) >=dev-vcs/git-1.8.2.1[curl] X? ( || ( >=x11-apps/mkfontscale-1.2.0 x11-apps/mkfontdir ) media-fonts/encodings )
+DEPEND=x11-libs/libX11 pcf? ( x11-apps/bdftopcf ) >=dev-vcs/git-1.8.2.1[curl] X? ( >=x11-apps/mkfontscale-1.2.0 media-fonts/encodings )
 DESCRIPTION=A small bitmap font
 EAPI=6
 HOMEPAGE=https://github.com/lucy/tewi-font
@@ -7,5 +7,5 @@ IUSE=+pcf X
 LICENSE=MIT
 RDEPEND=x11-libs/libX11
 SLOT=0
-_eclasses_=desktop	b1d22ac8bdd4679ab79c71aca235009d	epatch	a1bf4756dba418a7238f3be0cb010c54	estack	43ddf5aaffa7a8d0482df54d25a66a1f	eutils	6e6c2737b59a4b982de6fb3ecefd87f8	font	d4df4f26ea28a5f7037dbbd6d17cc49f	git-r3	0d4635eeb5a96cd5315597a47eba25c9	ltprune	2729691420b6deeda2a90b1f1183fb55	multilib	1d91b03d42ab6308b5f4f6b598ed110e	preserve-libs	ef207dc62baddfddfd39a164d9797648	python-any-r1	4900ae970f827a22d33d41bd8b8f9ace	python-utils-r1	08e17157a6807add7db1f8d01e7e391f	toolchain-funcs	8c7f9d80beedd16f2e5a7f612c609529	vcs-clean	2a0f74a496fa2b1552c4f3398258b7bf
+_eclasses_=desktop	b1d22ac8bdd4679ab79c71aca235009d	epatch	a1bf4756dba418a7238f3be0cb010c54	estack	43ddf5aaffa7a8d0482df54d25a66a1f	eutils	6e6c2737b59a4b982de6fb3ecefd87f8	font	641b5065e2f20fe6e35ec386d8826107	git-r3	0d4635eeb5a96cd5315597a47eba25c9	ltprune	2729691420b6deeda2a90b1f1183fb55	multilib	1d91b03d42ab6308b5f4f6b598ed110e	preserve-libs	ef207dc62baddfddfd39a164d9797648	python-any-r1	4900ae970f827a22d33d41bd8b8f9ace	python-utils-r1	08e17157a6807add7db1f8d01e7e391f	toolchain-funcs	8c7f9d80beedd16f2e5a7f612c609529	vcs-clean	2a0f74a496fa2b1552c4f3398258b7bf
 _md5_=2361a24b6f546e2b3d3e18b01747f00b
