@@ -1,6 +1,7 @@
 app-misc/bdfresize 1.5: A tool for resizing BDF format fonts
 app-misc/ufetch 9999: Tiny system info for Unix-like operating systems
 app-misc/zenbu 9999: Jinja2 + YAML based config templater
+dev-util/bear 2.4.2 9999: Compilation database generator for Clang
 media-fonts/gohufont 2.1: A monospace bitmap font.
 media-fonts/sarasa-gothic 0.6.0: A CJK programming font based on Iosevka and Source Han Sans
 media-fonts/siji 9999: An iconic bitmap font based on Stlarch with additional glyphs
