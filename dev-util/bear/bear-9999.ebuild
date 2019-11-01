@@ -28,3 +28,7 @@ IUSE=""
 DEPEND=">=dev-libs/libconfig-1.4"
 RDEPEND="${DEPEND}"
 BDEPEND="virtual/pkgconfig"
+
+if [[ ${PV} != *9999 ]]; then
+	S="${WORKDIR}/Bear-${PV}"
+fi
