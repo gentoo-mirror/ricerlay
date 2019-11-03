@@ -1,0 +1,12 @@
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=prepare unpack
+DEPEND=x11-libs/libxcb
+DESCRIPTION=A small library for X windows manipulation
+EAPI=7
+HOMEPAGE=https://github.com/wmutils/libwm
+LICENSE=ISC
+PROPERTIES=live
+RDEPEND=x11-libs/libxcb
+SLOT=0
+_eclasses_=git-r3	562b380fc59ae6a8622171d0acb777d1
+_md5_=23521dcc379548fa80e1a7b549179823
