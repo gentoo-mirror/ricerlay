@@ -26,10 +26,10 @@ SLOT="0"
 IUSE=""
 
 DEPEND="
->=sys-devel/clang-5.0:=
->=sys-devel/llvm-7.0:=
-dev-libs/rapidjson
-sys-libs/ncurses
+	>=sys-devel/clang-5.0:=
+	>=sys-devel/llvm-7.0:=
+	dev-libs/rapidjson
+	sys-libs/ncurses
 "
 RDEPEND="${DEPEND}"
 BDEPEND=""

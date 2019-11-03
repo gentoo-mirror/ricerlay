@@ -8,7 +8,7 @@ if [[ ${PV} == *9999 ]]; then
 	EGIT_REPO_URI="https://github.com/wmutils/libwm"
 fi
 
-inherit ${SCM}
+inherit eutils ${SCM}
 
 DESCRIPTION="A small library for X windows manipulation"
 HOMEPAGE="https://github.com/wmutils/libwm"
@@ -29,8 +29,6 @@ DEPEND="x11-libs/libxcb"
 RDEPEND="${DEPEND}"
 BDEPEND=""
 
-src_prepare() {
-	default
-
-	sed -e 's/\/local//' -i config.mk || die
+src_install() {
+	emake DESTDIR="${D}" PREFIX="/usr" install
 }
