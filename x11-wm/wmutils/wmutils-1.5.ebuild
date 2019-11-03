@@ -8,7 +8,7 @@ if [[ ${PV} == *9999 ]]; then
 	EGIT_REPO_URI="https://github.com/wmutils/core"
 fi
 
-inherit ${SCM}
+inherit eutils ${SCM}
 
 DESCRIPTION="Set of window manipulation tools"
 HOMEPAGE="https://github.com/wmutils/core"
@@ -33,8 +33,6 @@ if [[ ${PV} != *9999 ]]; then
 	S="${WORKDIR}/core-${PV}"
 fi
 
-src_prepare() {
-	default
-
-	sed -e 's/\/man/\/share\/man/' -i config.mk || die
+src_install() {
+	emake DESTDIR="${D}" MANPREFIX="/usr/share/man" install
 }
