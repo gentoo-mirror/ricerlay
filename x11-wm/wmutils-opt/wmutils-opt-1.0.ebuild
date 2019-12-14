@@ -4,11 +4,9 @@
 EAPI=7
 
 if [[ ${PV} == *9999 ]]; then
-	SCM="git-r3"
+	inherit git-r3
 	EGIT_REPO_URI="https://github.com/wmutils/opt"
 fi
-
-inherit ${SCM}
 
 DESCRIPTION="Set of window manipulation tools"
 HOMEPAGE="https://github.com/wmutils/opt"
