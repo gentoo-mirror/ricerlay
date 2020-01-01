@@ -8,4 +8,4 @@ LICENSE=ISC
 RDEPEND=x11-libs/libxcb
 SLOT=0
 SRC_URI=https://github.com/wmutils/opt/archive/v1.0.tar.gz -> wmutils-opt-1.0.tar.gz
-_md5_=df6f8d341b7d42b6eaa5e50c6c2414b5
+_md5_=2b17016d2ba91e02ad71ddb6d7a6e9c4
