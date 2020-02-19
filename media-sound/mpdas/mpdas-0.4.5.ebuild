@@ -14,11 +14,11 @@ SLOT="0"
 KEYWORDS="~amd64"
 IUSE=""
 
-BDEPEND="virtual/pkgconfig"
 DEPEND="media-libs/libmpdclient
 	net-misc/curl
 "
 RDEPEND="${DEPEND}"
+BDEPEND="virtual/pkgconfig"
 
 src_compile() {
 	tc-export CXX
