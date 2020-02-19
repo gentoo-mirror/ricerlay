@@ -33,8 +33,6 @@ DEPEND="x11-libs/libX11
 RDEPEND="x11-libs/libX11"
 BDEPEND=""
 
-S="${WORKDIR}/${P}"
-
 src_compile() {
 	if use pcf; then
 		emake
