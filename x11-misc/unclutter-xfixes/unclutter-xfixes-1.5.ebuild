@@ -1,24 +1,35 @@
 # Copyright 2018-2020 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
-EAPI=6
+EAPI=7
+
+if [[ ${PV} == *9999 ]]; then
+	inherit git-r3
+	EGIT_REPO_URI="https://github.com/Airblader/unclutter-xfixes.git"
+fi
 
 DESCRIPTION="A rewrite of unclutter using the x11-xfixes extension"
 HOMEPAGE="https://github.com/Airblader/unclutter-xfixes"
-SRC_URI="https://github.com/Airblader/unclutter-xfixes/archive/v${PV}.tar.gz \
-	-> ${P}.tar.gz"
+
+if [[ ${PV} == *9999  ]]; then
+	SRC_URI=""
+	KEYWORDS=""
+else
+	SRC_URI="https://github.com/Airblader/unclutter-xfixes/archive/v${PV}.tar.gz -> ${P}.tar.gz"
+	KEYWORDS="~amd64 ~x86"
+fi
 
 LICENSE="MIT"
 SLOT="0"
-KEYWORDS="~amd64"
 IUSE=""
 
 DEPEND="x11-libs/libXi
+	dev-libs/libev
 	x11-libs/libX11
 	x11-libs/libXfixes
-	dev-libs/libev
 "
 RDEPEND="${DEPEND}"
+BDEPEND=""
 
 src_prepare() {
 	default
