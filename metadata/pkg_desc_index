@@ -14,7 +14,7 @@ x11-misc/n30f 2.0 9999: A quick hack to display an image in a non-wm-managed win
 x11-misc/pywal 3.3.0 9999: Generate and change color-schemes on the fly.
 x11-misc/screenkey 0.9: A screencast tool to display your keys inspired by Screenflick
 x11-misc/sxlock 1.1 9999: simple X screen locker
-x11-misc/unclutter-xfixes 1.5 9999: A rewrite of unclutter using the x11-xfixes extension
+x11-misc/unclutter-xfixes 9999: A rewrite of unclutter using the x11-xfixes extension
 x11-misc/xgetres 1.0: Simple utility which prints the value of an X resource
 x11-misc/xkb-switch 1.5.0: Switch your X keyboard layouts from the command line
 x11-wm/wmutils 1.5 9999: Set of window manipulation tools
