@@ -3,7 +3,6 @@ app-misc/ufetch 0.2 9999: Tiny system info for Unix-like operating systems
 app-misc/zenbu 9999: Jinja2 + YAML based config templater
 dev-libs/libwm 1.0 9999: A small library for X windows manipulation
 dev-util/bear 2.4.2 9999: Compilation database generator for Clang
-dev-util/ccls 0.20190823.4 9999: C/C++/ObjC language server
 media-fonts/gohufont 2.1: A monospace bitmap font.
 media-fonts/siji 9999: An iconic bitmap font based on Stlarch with additional glyphs
 media-fonts/tewi-font 2.0.2 9999: A small bitmap font
