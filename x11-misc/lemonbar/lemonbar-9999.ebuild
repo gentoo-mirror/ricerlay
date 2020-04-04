@@ -34,4 +34,3 @@ BDEPEND=""
 if [[ ${PV} != *9999 ]]; then
 	S="${WORKDIR}/bar-${PV}"
 fi
-
