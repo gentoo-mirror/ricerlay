@@ -21,19 +21,25 @@ else
 	KEYWORDS="~amd64 ~x86"
 fi
 
-LICENSE="GPL-3"
+LICENSE="GPL-2"
 SLOT="0"
-IUSE=""
+IUSE="debug"
 
 DEPEND="dev-libs/eb
-	dev-qt/linguist-tools:5[qml]
+	dev-qt/linguist-tools:5
 	dev-qt/qtcore:5
 	dev-qt/qtdeclarative:5
 	dev-qt/qtgui:5
-	dev-qt/qtmultimedia:5[qml]
+	dev-qt/qtmultimedia:5
 	dev-qt/qtnetwork:5
-	dev-qt/qtwebchannel:5[qml]
+	dev-qt/qtwebchannel:5
 	dev-qt/qtwebengine:5[widgets]
+	dev-qt/qtwidgets:5
 	sys-libs/zlib"
 RDEPEND="${DEPEND}"
-BDEPEND="virtual/pkgconfig"
+BDEPEND=""
+
+src_configure() {
+	use !debug && append-cppflags -DQT_NO_DEBUG_OUTPUT
+	cmake-utils_src_configure
+}
