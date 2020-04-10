@@ -1,6 +1,7 @@
 app-misc/bdfresize 1.5: A tool for resizing BDF format fonts
 app-misc/ufetch 0.2 9999: Tiny system info for Unix-like operating systems
 app-misc/zenbu 9999: Jinja2 + YAML based config templater
+app-text/qolibri 2.1.3 9999: Continuation of the qolibri EPWING dictionary/book reader
 dev-libs/libwm 1.0 9999: A small library for X windows manipulation
 dev-util/bear 2.4.2 9999: Compilation database generator for Clang
 media-fonts/gohufont 2.1: A monospace bitmap font.
