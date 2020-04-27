@@ -1,7 +1,7 @@
 # Copyright 2018-2020 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
-EAPI=6
+EAPI=7
 
 inherit cmake-utils multilib
 
@@ -17,9 +17,3 @@ IUSE=""
 DEPEND="x11-libs/libxkbfile"
 RDEPEND="${DEPEND}"
 BDEPEND=""
-
-src_prepare() {
-	default
-
-	sed -i -e "s/DESTINATION lib/DESTINATION $(get_libdir)/" CMakeLists.txt
-}
