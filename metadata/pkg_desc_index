@@ -8,6 +8,7 @@ dev-util/ccls 9999: C/C++/ObjC language server
 media-fonts/gohufont 2.1-r1: A monospace bitmap font.
 media-fonts/siji 9999: An iconic bitmap font based on Stlarch with additional glyphs
 media-fonts/tewi-font 2.0.2 9999: A small bitmap font
+media-sound/beets 9999: Media library management system for obsessive-compulsive music geeks
 media-sound/cava 0.6.1-r1: Console-based audio visualizer for Alsa (MPD and Pulseaudio)
 media-sound/mpdas 0.4.5: AudioScrobbler client for MPD written in C++
 x11-misc/bgs 0.8: Simple background setter based on imlib2
