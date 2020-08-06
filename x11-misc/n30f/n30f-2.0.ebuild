@@ -23,7 +23,7 @@ LICENSE="BSD"
 SLOT="0"
 IUSE=""
 
-DEPEND="x11-libs/cairo
+DEPEND="x11-libs/cairo[X]
 	x11-libs/libxcb
 "
 RDEPEND="${DEPEND}"

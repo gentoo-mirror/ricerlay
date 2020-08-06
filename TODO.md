@@ -39,6 +39,7 @@
 * [x11-misc/slstatus](https://github.com/drkhsh/slstatus)
 * [x11-misc/sob](http://git.codemadness.nl/sob/)
 * [x11-misc/spoon](http://git.2f30.org/spoon/log.html)
+* [x11-misc/swarp](https://tools.suckless.org/x/swarp/)
 * [x11-misc/tdrop](https://github.com/noctuid/tdrop)
 * [x11-misc/twmn](https://github.com/sboli/twmn)
 * [x11-misc/wpgtk](https://github.com/deviantfero/wpgtk)
