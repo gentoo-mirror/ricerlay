@@ -1,14 +1,14 @@
 BDEPEND=>=app-portage/elt-patches-20170815 || ( >=sys-devel/automake-1.16.1:1.16 >=sys-devel/automake-1.15.1:1.15 ) >=sys-devel/autoconf-2.69 >=sys-devel/libtool-2.4
 DEFINED_PHASES=compile configure install prepare setup
-DEPEND=dev-libs/iniparser:0 sci-libs/fftw:3.0 sys-libs/ncurses:=
-DESCRIPTION=Console-based audio visualizer for Alsa (MPD and Pulseaudio)
+DEPEND=sci-libs/fftw:3.0 sys-libs/ncurses system-iniparser? ( dev-libs/iniparser:4 )
+DESCRIPTION=Console-based audio visualizer for ALSA
 EAPI=7
 HOMEPAGE=https://github.com/karlstav/cava
-IUSE=debug kernel_linux
+IUSE=alsa debug portaudio pulseaudio system-iniparser kernel_linux
 KEYWORDS=~amd64 ~x86
 LICENSE=MIT
-RDEPEND=dev-libs/iniparser:0 sci-libs/fftw:3.0 sys-libs/ncurses:=
+RDEPEND=sci-libs/fftw:3.0 sys-libs/ncurses system-iniparser? ( dev-libs/iniparser:4 ) alsa? ( media-libs/alsa-lib ) pulseaudio? ( media-sound/pulseaudio ) portaudio? ( media-libs/portaudio )
 SLOT=0
-SRC_URI=https://github.com/karlstav/cava/archive/0.6.1.tar.gz -> cava-0.6.1.tar.gz
+SRC_URI=https://github.com/karlstav/cava/archive/0.7.2.tar.gz -> cava-0.7.2.tar.gz
 _eclasses_=autotools	7d999b62b8749fad43fff00620cedf47	eutils	fcb2aa98e1948b835b5ae66ca52868c5	libtool	f143db5a74ccd9ca28c1234deffede96	linux-info	c90a203b1c14cfa77bd3e37a0e96c955	multilib	2477ebe553d3e4d2c606191fe6c33602	toolchain-funcs	605c126bed8d87e4378d5ff1645330cb
-_md5_=ec446d1ca4551f78bf8ee759c2f8514a
+_md5_=15436158ba5b2a01d94654b3e8de30d0

@@ -4,3 +4,4 @@
 
 media-fonts/siji:pcf - Install pcf files instead of bdf
 media-fonts/tewi-font:pcf - Install pcf files instead of bdf
+media-sound/cava:system-iniparser - Use the system-wide dev-libs/iniparser instead of bundled.
