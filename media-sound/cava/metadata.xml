@@ -5,4 +5,9 @@
 		<email>azahi@teknik.io</email>
 		<name>azahi</name>
 	</maintainer>
+	<use>
+		<flag name="system-iniparser">
+			Use the system-wide dev-libs/iniparser instead of bundled.
+		</flag>
+	</use>
 </pkgmetadata>
