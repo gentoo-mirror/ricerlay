@@ -1,0 +1,12 @@
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=install unpack
+DEPEND=media-libs/fontconfig media-libs/imlib2 x11-libs/libX11 x11-libs/libXft x11-libs/libXinerama
+DESCRIPTION=a x11 menu utility
+EAPI=7
+HOMEPAGE=https://github.com/phillbush/xmenu
+LICENSE=MIT
+PROPERTIES=live
+RDEPEND=media-libs/fontconfig media-libs/imlib2 x11-libs/libX11 x11-libs/libXft x11-libs/libXinerama
+SLOT=0
+_eclasses_=eutils	fcb2aa98e1948b835b5ae66ca52868c5	git-r3	8ec5b53812bce105ae7943930e4660f8
+_md5_=15e558e6e4c2dbc68e52d93c48d68036
