@@ -14,6 +14,7 @@ x11-misc/pmenu 2.0 9999: A pie-menu in xlib and imlib2.
 x11-misc/pywal 3.3.0 9999: Generate and change color-schemes on the fly.
 x11-misc/sxlock 1.1 9999: simple X screen locker
 x11-misc/unclutter-xfixes 9999: A rewrite of unclutter using the x11-xfixes extension
+x11-misc/xclickroot 1.0 9999: click on root window and run a command
 x11-misc/xgetres 1.0: Simple utility which prints the value of an X resource
 x11-misc/xkb-switch 1.6.0: Switch your X keyboard layouts from the command line
 x11-misc/xmenu 4.3.0 9999: a x11 menu utility
