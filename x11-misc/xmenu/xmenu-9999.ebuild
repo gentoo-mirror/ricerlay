@@ -25,7 +25,8 @@ LICENSE="MIT"
 SLOT="0"
 IUSE=""
 
-DEPEND="media-libs/imlib2
+DEPEND="media-libs/fontconfig
+	media-libs/imlib2
 	x11-libs/libX11
 	x11-libs/libXft
 	x11-libs/libXinerama
