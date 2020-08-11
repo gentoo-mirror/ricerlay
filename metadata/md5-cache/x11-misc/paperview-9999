@@ -1,0 +1,12 @@
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=install unpack
+DEPEND=media-libs/libsdl2 x11-libs/libX11
+DESCRIPTION=focus the closest window in a given direction
+EAPI=7
+HOMEPAGE=https://github.com/glouw/paperview
+LICENSE=MIT
+PROPERTIES=live
+RDEPEND=media-libs/libsdl2 x11-libs/libX11
+SLOT=0
+_eclasses_=eutils	fcb2aa98e1948b835b5ae66ca52868c5	git-r3	8ec5b53812bce105ae7943930e4660f8
+_md5_=8ad79d2dd1eb4d3a858fc822552dd8b5
