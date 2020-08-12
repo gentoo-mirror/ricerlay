@@ -31,6 +31,8 @@
 * [media-video/yaxg](https://github.com/DanielFGray/yaxg)
 * [sys-apps/fcat](https://github.com/mre/fcat)
 * [sys-power/auto-cpufreq](https://github.com/AdnanHodzic/auto-cpufreq)
+* [sys-process/gotop](https://github.com/xxxserxxx/gotop)
+* [sys-process/ytop](https://github.com/cjbassi/ytop)
 * [x11-misc/admiral](https://github.com/sector-f/admiral)
 * [x11-misc/bevelbar](https://www.uninformativ.de/git/bevelbar)
 * [x11-misc/colorlovers](https://github.com/zzzeyez/colorlovers)
