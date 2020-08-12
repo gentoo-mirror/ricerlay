@@ -1,0 +1,12 @@
+DEFINED_PHASES=install prepare
+DEPEND=xinerama? ( x11-libs/libXinerama ) media-libs/imlib2 x11-libs/libX11
+DESCRIPTION=Simple background setter based on imlib2
+EAPI=7
+HOMEPAGE=https://github.com/Gottox/bgs
+IUSE=xinerama
+KEYWORDS=~amd64 ~x86
+LICENSE=MIT
+RDEPEND=xinerama? ( x11-libs/libXinerama ) media-libs/imlib2 x11-libs/libX11
+SLOT=0
+SRC_URI=https://github.com/Gottox/bgs/archive/v0.8.tar.gz -> bgs-0.8.tar.gz
+_md5_=68d2c0f4d31503a1335c66958a5ee1c2
