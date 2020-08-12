@@ -10,8 +10,8 @@ Some of them do exist but, for example, live ebuilds are not present or broken.
 This overlay is aimed to fix these issues and promote Gentoo as a favorable
 distribution for those who want to customize their desktop.
 
-Installation
-############
+Installing and Using
+####################
 
 ::
 
@@ -29,11 +29,15 @@ needed to be added or updated. However, you are not limited to only working
 with it. You are encouraged to add interesting packages related to ricing,
 customization and workflow improvement.
 
-Some packages here I no longer use or maybe even too lazy to bump to upstream.
-Please report any issues rearding that.
+Some packages here I no longer use or maybe even too lazy to bump to upstream
+versions. Please report any issues rearding that.
 
 Making PRs
 **********
+
+Make sure you are familiar with how to write and how to format ebuilds and
+ebuild repositories. The Gentoo's official and up-to-date guide can be found
+`here <https://devmanual.gentoo.org/ebuild-writing/index.html>`_.
 
 Example workflow could look like this (commented out are actions that you
 perform outside of your terminal):
@@ -61,12 +65,24 @@ three words if you think that changes are self-explanatory), for example:
     changelog, upstream notes and etc. related to the packae in the subsection
     of the commit message.
 
-It would be really nice if you could also use ``app-portage/repoman`` for QA.
+It would be really nice if you could also use ``app-portage/repoman`` and
+``app-portage/overlint`` for QA.
 
 If you are submiting a new package, include yourself as a maintainer in the
-``metadata.xml`` file.
+``metadata.xml`` file, for example:
+
+::
+
+    <?xml version="1.0" encoding="UTF-8"?>
+    <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+    <pkgmetadata>
+        <maintainer type="person">
+            <email>YOUR@EMAIL.HERE</email>
+            <name>YOUR NAME</name>
+        </maintainer>
+    </pkgmetadata>
 
 And finally, consider using indentation guides from ``.editorconfig`` file so
 that the code in the overlay stays uniform. Basically, both ``.ebuild``  and
 ``.xml`` files are using 4 non-expanded spaces as a tab. You are free to do what
-you consider the best in ``${FILESDIR}``.
+you consider the best in the ``${FILESDIR}`` with patches and etc.
