@@ -15,8 +15,6 @@
 * [app-shells/lsix](https://github.com/hackerb9/lsix)
 * [app-text/fiche](https://github.com/solusipse/fiche)
 * [app-text/urlview](https://github.com/sigpipe/urlview)
-* [dev-util/bic](https://github.com/hexagonal-sun/bic)
-* [dev-util/scc](https://github.com/boyter/scc)
 * [games-misc/tewisay](https://github.com/lucy/tewisay)
 * [media-fonts/blueberry-font](https://github.com/arathnim/blueberry-font)
 * [media-fonts/fixedsys](https://github.com/kika/fixedsys)
