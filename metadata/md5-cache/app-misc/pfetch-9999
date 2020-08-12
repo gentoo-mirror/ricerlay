@@ -1,0 +1,10 @@
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=install unpack
+DESCRIPTION=A pretty system information tool written in POSIX sh.
+EAPI=7
+HOMEPAGE=https://github.com/dylanaraps/pfetch
+LICENSE=MIT
+PROPERTIES=live
+SLOT=0
+_eclasses_=git-r3	8ec5b53812bce105ae7943930e4660f8
+_md5_=dc93322d879ec9df00a36676f09d7d64

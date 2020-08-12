@@ -5,5 +5,5 @@ HOMEPAGE=https://github.com/dylanaraps/pfetch
 KEYWORDS=~amd64 ~x86
 LICENSE=MIT
 SLOT=0
-SRC_URI=https://github.com/dylanaraps/pfetch/archive/0.6.0.tar.gz
-_md5_=5a8dd5c54c95aca6e37c955d656c13e2
+SRC_URI=https://github.com/dylanaraps/pfetch/archive/0.6.0.tar.gz -> pfetch-0.6.0.tar.gz
+_md5_=dc93322d879ec9df00a36676f09d7d64
