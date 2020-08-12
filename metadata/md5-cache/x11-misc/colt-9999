@@ -1,0 +1,12 @@
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=install unpack
+DEPEND=x11-libs/libX11 x11-libs/libXinerama
+DESCRIPTION=A small color temperature and brightness controller for X11.
+EAPI=7
+HOMEPAGE=https://github.com/azahi/colt
+LICENSE=WTFPL-2
+PROPERTIES=live
+RDEPEND=x11-libs/libX11 x11-libs/libXinerama
+SLOT=0
+_eclasses_=git-r3	8ec5b53812bce105ae7943930e4660f8
+_md5_=4892d9e1929246a2c6bc7b506eff763a
