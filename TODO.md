@@ -5,7 +5,6 @@
 * [app-misc/eta](https://github.com/aioobe/eta)
 * [app-misc/fbcat](https://github.com/jwilk/fbcat)
 * [app-misc/ly](https://github.com/cylgom/ly)
-* [app-misc/pfetch](https://github.com/dylanaraps/pfetch)
 * [app-misc/seq2gif](https://github.com/saitoha/seq2gif)
 * [app-misc/slmenu](https://bitbucket.org/rafaelgg/slmenu)
 * [app-misc/stag](https://github.com/seenaburns/stag)
