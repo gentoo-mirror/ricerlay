@@ -1,6 +1,7 @@
 app-misc/bdfresize 1.5: A tool for resizing BDF format fonts
 app-misc/colors 9999: extract colors from pictures
 app-misc/pfetch 0.6.0-r1 9999: A pretty system information tool written in POSIX sh.
+app-misc/seq2gif 0.10.3 9999: Console-based audio visualizer for ALSA
 app-misc/tty-clock 2.3: Clock using lib ncurses
 app-misc/ufetch 0.2 9999: Tiny system info for Unix-like operating systems
 app-misc/zenbu 9999: Jinja2 + YAML based config templater
