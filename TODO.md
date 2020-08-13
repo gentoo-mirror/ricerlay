@@ -3,13 +3,12 @@
 * [app-misc/asciiquarium](https://github.com/cmatsuoka/asciiquarium)
 * [app-misc/fbcat](https://github.com/jwilk/fbcat)
 * [app-misc/ly](https://github.com/cylgom/ly)
-* [app-misc/seq2gif](https://github.com/saitoha/seq2gif) _Review bundled software and licenses_
+* [app-misc/seq2gif](https://github.com/saitoha/seq2gif) -- _Review bundled software and licenses_
 * [app-misc/slmenu](https://bitbucket.org/rafaelgg/slmenu)
 * [app-misc/stag](https://github.com/seenaburns/stag)
 * [app-misc/ttyrec](https://github.com/mjording/ttyrec)
 * [app-misc/urnn](https://github.com/nixers-projects/urnn)
 * [app-misc/vrms](https://github.com/z411/vrms-gentoo)
-* [app-misc/xcp](https://github.com/tarka/xcp)
 * [app-shells/lsix](https://github.com/hackerb9/lsix)
 * [app-text/fiche](https://github.com/solusipse/fiche)
 * [app-text/urlview](https://github.com/sigpipe/urlview)
@@ -24,8 +23,6 @@
 * [media-sound/cli-visualizer](https://github.com/dpayne/cli-visualizer)
 * [media-sound/mpdviz](https://github.com/lucy/mpdviz)
 * [media-video/yaxg](https://github.com/DanielFGray/yaxg)
-* [sys-apps/fcat](https://github.com/mre/fcat)
-* [sys-power/auto-cpufreq](https://github.com/AdnanHodzic/auto-cpufreq)
 * [sys-process/gotop](https://github.com/xxxserxxx/gotop)
 * [sys-process/ytop](https://github.com/cjbassi/ytop)
 * [x11-misc/admiral](https://github.com/sector-f/admiral)
