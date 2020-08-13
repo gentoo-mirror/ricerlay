@@ -26,6 +26,7 @@
 * [sys-process/gotop](https://github.com/xxxserxxx/gotop)
 * [sys-process/ytop](https://github.com/cjbassi/ytop)
 * [x11-misc/admiral](https://github.com/sector-f/admiral)
+* [x11-misc/bar](https://github.com/LemonBoy/bar) _Move to this package name from x11-misc/lemonbar_
 * [x11-misc/bevelbar](https://www.uninformativ.de/git/bevelbar)
 * [x11-misc/colorlovers](https://github.com/zzzeyez/colorlovers)
 * [x11-misc/dxhd](https://github.com/dakyskye/dxhd)
@@ -44,9 +45,10 @@
 * [x11-misc/twmn](https://github.com/sboli/twmn)
 * [x11-misc/wpgtk](https://github.com/deviantfero/wpgtk)
 * [x11-misc/xbattmon](http://git.2f30.org/xbattmon/log.html)
+* [x11-misc/xchainkeys](https://github.com/hbekel/xchainkeys)
 * [x11-misc/xremap](https://github.com/k0kubun/xremap)
 * [x11-terms/xst](https://github.com/neeasade/xst)
-* [x11-wm/2bwm](https://github.com/venam/2bwm)
+* [x11-wm/2bwm](https://github.com/venam/2bwm) -- _QA Notice: Pre-stripped files found_
 * [x11-wm/9wm](https://github.com/9wm/9wm)
 * [x11-wm/custard](https://github.com/Sweets/custard)
 * [x11-wm/dwl](https://github.com/djpohly/dwl)
