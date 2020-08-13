@@ -1,7 +1,6 @@
 # TODO
 
 * [app-misc/asciiquarium](https://github.com/cmatsuoka/asciiquarium)
-* [app-misc/colors](http://git.2f30.org/colors/)
 * [app-misc/eta](https://github.com/aioobe/eta)
 * [app-misc/fbcat](https://github.com/jwilk/fbcat)
 * [app-misc/ly](https://github.com/cylgom/ly)
