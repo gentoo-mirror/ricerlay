@@ -37,7 +37,7 @@ RDEPEND="${DEPEND}
 "
 BDEPEND=""
 
-DOCS="README.md"
+DOCS=( README.md example_files/ )
 
 CONFIG_CHECK=(
 	SND_ALOOP
