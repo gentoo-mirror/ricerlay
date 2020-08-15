@@ -1,0 +1,11 @@
+DEFINED_PHASES=install
+DEPEND=x11-libs/libX11
+DESCRIPTION=Window Manager agnostic swallowing feature for terminal emulators
+EAPI=7
+HOMEPAGE=https://github.com/salman-abedin/devour
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-3
+RDEPEND=x11-libs/libX11
+SLOT=0
+SRC_URI=https://github.com/salman-abedin/devour/archive/v10.tar.gz
+_md5_=87a6c6fadc3be1cd7707f8a3743ac01d

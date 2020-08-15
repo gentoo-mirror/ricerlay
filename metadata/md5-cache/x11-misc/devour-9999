@@ -1,0 +1,12 @@
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=install unpack
+DEPEND=x11-libs/libX11
+DESCRIPTION=Window Manager agnostic swallowing feature for terminal emulators
+EAPI=7
+HOMEPAGE=https://github.com/salman-abedin/devour
+LICENSE=GPL-3
+PROPERTIES=live
+RDEPEND=x11-libs/libX11
+SLOT=0
+_eclasses_=git-r3	8ec5b53812bce105ae7943930e4660f8
+_md5_=1143ea9ad4e3c6db908f3ca2d30025d5
