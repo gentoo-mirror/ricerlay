@@ -33,7 +33,7 @@ BDEPEND=""
 DOCS=( README.asciidoc )
 
 src_compile() {
-	emake xinerama=$(use xinerama)
+	emake xinerama=$(usex xinerama 1 0)
 }
 
 src_install() {
