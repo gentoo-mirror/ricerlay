@@ -4,11 +4,9 @@
 EAPI=7
 
 if [[ ${PV} == *9999 ]]; then
-	SCM="git-r3"
-	EGIT_REPO_URI="https://github.com/wmutils/core"
+	inherit git-r3
+	EGIT_REPO_URI="https://github.com/wmutils/core.git"
 fi
-
-inherit eutils ${SCM}
 
 DESCRIPTION="Set of window manipulation tools"
 HOMEPAGE="https://github.com/wmutils/core"
@@ -25,14 +23,26 @@ LICENSE="ISC"
 SLOT="0"
 IUSE=""
 
-DEPEND="x11-libs/libxcb"
+DEPEND="
+	x11-libs/libxcb
+	x11-libs/xcb-util
+	x11-libs/xcb-util-cursor
+"
 RDEPEND="${DEPEND}"
 BDEPEND=""
+
+DOCS=( README.md )
 
 if [[ ${PV} != *9999 ]]; then
 	S="${WORKDIR}/core-${PV}"
 fi
 
+src_prepare() {
+	sed -i 's/-Os//g' -i config.mk
+	default
+}
+
 src_install() {
-	emake DESTDIR="${D}" MANPREFIX="/usr/share/man" install
+	emake DESTDIR="${D}" MANPREFIX="${EPREFIX}/usr/share/man" install
+	einstalldocs
 }
