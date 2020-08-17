@@ -3,42 +3,64 @@
 
 EAPI=7
 
-inherit eutils git-r3
+inherit git-r3
 
-DESCRIPTION="Useful bits and pieces"
+DESCRIPTION="Useful bits and pieces for wmutils"
 HOMEPAGE="https://github.com/wmutils/contrib"
-EGIT_REPO_URI="https://github.com/wmutils/contrib"
+EGIT_REPO_URI="https://github.com/wmutils/contrib.git"
 
 LICENSE="MIT"
 SLOT="0"
 KEYWORDS=""
-IUSE=""
+IUSE="+deletelock +focus_watcher +killwa +switch_grid"
 
-DEPEND="x11-libs/libxcb"
-RDEPEND="${DEPEND}"
+DEPEND="
+	x11-wm/wmutils
+	killwa? (
+		x11-libs/libxcb
+		x11-libs/xcb-util-wm
+	)
+"
+RDEPEND="${DEPEND}
+	deletelock? ( x11-apps/xprop )
+	focus_watcher? ( x11-wm/wmutils-opt )
+	switch_grid? ( x11-wm/wmutils-opt )
+"
 BDEPEND=""
 
+DOCS=( README.md )
+
+src_prepare() {
+	default
+	if use killwa; then
+		local S="${S}/killwa"
+		sed -e 's/-Os//g' -i "${S}/config.mk" || die
+	fi
+}
+
 src_compile() {
-	local S="${S}/killwa"
-	emake -C "${S}"
+	if use killwa; then
+		local S="${S}/killwa"
+		emake -C "${S}"
+	fi
 }
 
 src_install() {
-	exeinto /usr/bin
-	doexe closest.sh
-	doexe deletelock.sh
-	doexe focus.sh
-	doexe focus_watcher.sh
-	doexe fullscreen.sh
-	doexe groups.sh
-	doexe rainbow.sh
-	doexe snap.sh
-	doexe switch_grid.sh
-	doexe tile.sh
-	doexe underneath.sh
-	doexe wmenu.sh
-	doexe workspace.sh
-
-	local S="${S}/killwa"
-	emake -C "${S}" DESTDIR="${D}" install
+	dobin closest.sh
+	dobin focus.sh
+	dobin fullscreen.sh
+	dobin groups.sh
+	dobin rainbow.sh
+	dobin snap.sh
+	dobin tile.sh
+	dobin underneath.sh
+	dobin wmenu.sh
+	dobin workspace.sh
+	use focus_watcher && dobin focus_watcher.sh
+	use switch_grid && dobin switch_grid.sh
+	use deletelock && dobin deletelock.sh
+	if use killwa; then
+		local S="${S}/killwa"
+		emake -C "${S}" DESTDIR="${D}" install
+	fi
 }

@@ -5,10 +5,10 @@ EAPI=7
 
 if [[ ${PV} == *9999 ]]; then
 	inherit git-r3
-	EGIT_REPO_URI="https://github.com/wmutils/opt"
+	EGIT_REPO_URI="https://github.com/wmutils/opt.git"
 fi
 
-DESCRIPTION="Set of window manipulation tools"
+DESCRIPTION="Optional addons to wmutils"
 HOMEPAGE="https://github.com/wmutils/opt"
 
 if [[ ${PV} == *9999 ]]; then
@@ -23,10 +23,20 @@ LICENSE="ISC"
 SLOT="0"
 IUSE=""
 
-DEPEND="x11-libs/libxcb"
+DEPEND="
+	x11-libs/libxcb
+	x11-libs/xcb-util
+"
 RDEPEND="${DEPEND}"
 BDEPEND=""
 
 if [[ ${PV} != *9999 ]]; then
 	S="${WORKDIR}/opt-${PV}"
 fi
+
+DOCS=( README.md )
+
+src_prepare() {
+	default
+	sed -e 's/-Os//g' -i config.mk || die
+}

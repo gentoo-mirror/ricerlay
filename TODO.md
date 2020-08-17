@@ -6,7 +6,6 @@
 * [app-misc/seq2gif](https://github.com/saitoha/seq2gif) -- _Review bundled software and licenses_
 * [app-misc/slmenu](https://bitbucket.org/rafaelgg/slmenu)
 * [app-misc/stag](https://github.com/seenaburns/stag)
-* [app-misc/ttyrec](https://github.com/mjording/ttyrec)
 * [app-misc/urnn](https://github.com/nixers-projects/urnn)
 * [app-shells/lsix](https://github.com/hackerb9/lsix)
 * [games-misc/sl](https://github.com/mtoyoda/sl)
@@ -45,11 +44,7 @@
 * [x11-misc/xchainkeys](https://github.com/hbekel/xchainkeys)
 * [x11-misc/xremap](https://github.com/k0kubun/xremap)
 * [x11-terms/xst](https://github.com/neeasade/xst)
-* [x11-wm/2bwm](https://github.com/venam/2bwm) -- _QA Notice: Pre-stripped files found_
-* [x11-wm/9wm](https://github.com/9wm/9wm)
 * [x11-wm/custard](https://github.com/Sweets/custard)
 * [x11-wm/mwm](https://github.com/stackfield/mwm)
 * [x11-wm/sdorfehs](https://github.com/jcs/sdorfehs)
-* [x11-wm/sowm](https://github.com/dylanaraps/sowm)
-* [x11-wm/tinywm](https://github.com/mackstann/tinywm)
 * [x11-wm/xlambda](https://github.com/kori/Xlambda)

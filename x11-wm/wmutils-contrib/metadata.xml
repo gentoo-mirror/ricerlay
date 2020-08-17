@@ -5,4 +5,21 @@
 		<email>azahi@teknik.io</email>
 		<name>azahi</name>
 	</maintainer>
+	<use>
+		<flag name="deletelock">
+			Install deletelock.sh
+		</flag>
+		<flag name="focus_watcher">
+			Install focus_watcher.sh
+		</flag>
+		<flag name="killwa">
+			Install killwa
+		</flag>
+		<flag name="switch_grid">
+			Install switch_grid.sh
+		</flag>
+	</use>
+	<upstream>
+		<remote-id type="github">wmutils/contrib</remote-id>
+	</upstream>
 </pkgmetadata>
