@@ -28,7 +28,7 @@ x11-misc/xgetres 9999: A dmenu rip-off with contextual completion
 x11-misc/xkb-switch 1.6.0: Switch your X keyboard layouts from the command line
 x11-misc/xmenu 4.3.0 9999: a x11 menu utility
 x11-misc/xprompt 2.2.1 9999: A dmenu rip-off with contextual completion
-x11-wm/2bwm 0.3 9999: A fast floating WM written over the XCB library and derived from mcwm.
+x11-wm/9wm 1.4.1 9999: X11 window manager inspired by Plan 9's rio
 x11-wm/shod 0.2.2 9999: hybrid (floating and tiling) window manager
 x11-wm/sowm 1.6 9999: An itsy bitsy floating window manager
 x11-wm/tinywm 1.1 9999: The tiniest window manager.
