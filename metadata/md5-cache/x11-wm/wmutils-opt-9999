@@ -1,12 +1,12 @@
 BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
-DEFINED_PHASES=unpack
-DEPEND=x11-libs/libxcb
-DESCRIPTION=Set of window manipulation tools
+DEFINED_PHASES=prepare unpack
+DEPEND=x11-libs/libxcb x11-libs/xcb-util
+DESCRIPTION=Optional addons to wmutils
 EAPI=7
 HOMEPAGE=https://github.com/wmutils/opt
 LICENSE=ISC
 PROPERTIES=live
-RDEPEND=x11-libs/libxcb
+RDEPEND=x11-libs/libxcb x11-libs/xcb-util
 SLOT=0
 _eclasses_=git-r3	8ec5b53812bce105ae7943930e4660f8
-_md5_=2b17016d2ba91e02ad71ddb6d7a6e9c4
+_md5_=d1be2554e15d235499c6c82892e8cb8e
