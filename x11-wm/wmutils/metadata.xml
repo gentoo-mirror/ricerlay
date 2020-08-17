@@ -5,4 +5,7 @@
 		<email>azahi@teknik.io</email>
 		<name>azahi</name>
 	</maintainer>
+	<upstream>
+		<remote-id type="github">wmutils/core</remote-id>
+	</upstream>
 </pkgmetadata>
