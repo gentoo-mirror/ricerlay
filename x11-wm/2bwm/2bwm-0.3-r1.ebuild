@@ -5,12 +5,12 @@ EAPI=7
 
 if [[ ${PV} == *9999 ]]; then
 	SCM="git-r3"
-	EGIT_REPO_URI="https://github.com/venam/2bwm"
+	EGIT_REPO_URI="https://github.com/venam/2bwm.git"
 fi
 
 inherit savedconfig ${SCM}
 
-DESCRIPTION="A fast floating WM written over the XCB library and derived from mcwm."
+DESCRIPTION="A fast floating WM written over the XCB library and derived from mcwm"
 HOMEPAGE="https://github.com/venam/2bwm"
 
 if [[ ${PV} == *9999 ]]; then
@@ -25,7 +25,8 @@ LICENSE="ISC"
 SLOT="0"
 IUSE=""
 
-DEPEND="x11-libs/xcb-util
+DEPEND="
+	x11-libs/xcb-util
 	x11-libs/xcb-util-renderutil
 	x11-libs/xcb-util-wm
 	x11-libs/xcb-util-xrm
@@ -33,11 +34,20 @@ DEPEND="x11-libs/xcb-util
 RDEPEND="${DEPEND}"
 BDEPEND=""
 
+DOCS=( README.md )
+
+src_prepare() {
+	sed -e 's/-Os -s//g' -i Makefile || die
+	default
+}
+
 src_compile() {
 	restore_config config.h
+	default
 }
 
 src_install() {
-	emake DESTDIR="${D}" PREFIX=/usr install
 	save_config config.h
+	emake DESTDIR="${D}" PREFIX=/usr install
+	einstalldocs
 }
