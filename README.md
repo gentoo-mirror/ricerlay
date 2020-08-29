@@ -48,7 +48,6 @@ be found [here](https://devmanual.gentoo.org/ebuild-writing/index.html).
 Example workflow could look like this (commented out are actions that
 you perform outside of your shell):
 
-``` sh
     ### Fork this repository ###
     git clone https://github.com/<your github username>/ricerlay.git
     ### Make changes ###
@@ -58,21 +57,18 @@ you perform outside of your shell):
     git commit -m "<category>/<package>: <Briefly state your changes>"
     git push -f origin master
     ### Create a PR ###
-```
 
 Consider commiting changes *per-package*, **don't** commit multiple
 packages at once. Make sure you write a **meaningful commit message**
 (you can use two or three words if you think that changes are
 self-explanatory), for example:
 
-``` text
     some-category/some-package: Briefly state yor changes
 
     If needed, explain the reasoning behind your commit or provide information,
     changelog, upstream notes and etc. related to the packae in the subsection
     of the commit message. Remember to reference GitHub tracked issues if you
     are working on a fix, for example: Bug #420, Fixes #69.
-```
 
 Check your changes with `app-portage/repoman` and `app-portage/overlint` for
 possible QA errors.
@@ -81,14 +77,14 @@ If you are submiting a new package, include yourself as a maintainer in
 the `metadata.xml` file, for example:
 
 ``` xml
-    <?xml version="1.0" encoding="UTF-8"?>
-    <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
-    <pkgmetadata>
-        <maintainer type="person">
-            <email>YOUR.ACTUAL.WORKING@EMAIL.HERE</email>
-            <name>YOUR NAME OR HANDLE</name>
-        </maintainer>
-    </pkgmetadata>
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+    <maintainer type="person">
+        <email>YOUR.ACTUAL.WORKING@EMAIL.HERE</email>
+        <name>YOUR NAME OR HANDLE</name>
+    </maintainer>
+</pkgmetadata>
 ```
 
 And finally, consider using indentation guides from `.editorconfig` file
