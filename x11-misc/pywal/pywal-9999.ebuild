@@ -12,7 +12,7 @@ fi
 
 inherit distutils-r1 ${SCM}
 
-DESCRIPTION="Generate and change color-schemes on the fly."
+DESCRIPTION="Generate and change color-schemes on the fly"
 HOMEPAGE="https://github.com/dylanaraps/pywal"
 
 if [[ ${PV} == *9999 ]]; then

@@ -5,7 +5,7 @@ EAPI=7
 
 inherit font font-ebdftopcf
 
-DESCRIPTION="A monospace bitmap font."
+DESCRIPTION="A monospace bitmap font"
 HOMEPAGE="http://font.gohu.org/"
 SRC_URI="https://github.com/hchargois/${PN}/archive/${PV}.tar.gz -> ${P}.tar.gz"
 

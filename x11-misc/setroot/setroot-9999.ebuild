@@ -8,7 +8,7 @@ if [[ ${PV} == *9999 ]]; then
 	EGIT_REPO_URI="https://github.com/ttzhou/setroot.git"
 fi
 
-DESCRIPTION="simple X background setter inspired by imlibsetroot and feh."
+DESCRIPTION="simple X background setter inspired by imlibsetroot and feh"
 HOMEPAGE="https://github.com/ttzhou/setroot"
 
 if [[ ${PV} == *9999 ]]; then

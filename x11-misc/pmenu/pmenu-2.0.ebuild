@@ -10,7 +10,7 @@ fi
 
 inherit eutils ${SCM}
 
-DESCRIPTION="A pie-menu in xlib and imlib2."
+DESCRIPTION="A pie-menu in xlib and imlib2"
 HOMEPAGE="https://github.com/phillbush/pmenu"
 
 if [[ ${PV} == *9999 ]]; then
