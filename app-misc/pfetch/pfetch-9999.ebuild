@@ -8,7 +8,7 @@ if [[ ${PV} == *9999 ]]; then
 	EGIT_REPO_URI="https://github.com/dylanaraps/pfetch.git"
 fi
 
-DESCRIPTION="A pretty system information tool written in POSIX sh."
+DESCRIPTION="A pretty system information tool written in POSIX sh"
 HOMEPAGE="https://github.com/dylanaraps/pfetch"
 
 if [[ ${PV} == *9999 ]]; then

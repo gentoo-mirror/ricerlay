@@ -8,7 +8,7 @@ if [[ ${PV} == *9999 ]]; then
 	EGIT_REPO_URI="https://github.com/azahi/colt.git"
 fi
 
-DESCRIPTION="A small color temperature and brightness controller for X11."
+DESCRIPTION="A small color temperature and brightness controller for X11"
 HOMEPAGE="https://github.com/azahi/colt"
 
 if [[ ${PV} == *9999 ]]; then

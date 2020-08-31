@@ -8,7 +8,7 @@ if [[ ${PV} == *9999 ]]; then
 	EGIT_REPO_URI="https://github.com/mackstann/tinywm.git"
 fi
 
-DESCRIPTION="The tiniest window manager."
+DESCRIPTION="The tiniest window manager"
 HOMEPAGE="https://github.com/mackstann/tinywm"
 
 if [[ ${PV} == *9999 ]]; then
