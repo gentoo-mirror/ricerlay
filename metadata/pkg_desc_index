@@ -1,26 +1,26 @@
 app-misc/bdfresize 1.5: A tool for resizing BDF format fonts
 app-misc/colors 9999: extract colors from pictures
-app-misc/pfetch 0.6.0-r1 9999: A pretty system information tool written in POSIX sh.
+app-misc/pfetch 0.6.0-r1 9999: A pretty system information tool written in POSIX sh
 app-misc/seq2gif 0.10.3 9999: Console-based audio visualizer for ALSA
 app-misc/tty-clock 2.3: Clock using lib ncurses
 app-misc/ufetch 0.2 9999: Tiny system info for Unix-like operating systems
 app-misc/zenbu 9999: Jinja2 + YAML based config templater
 dev-libs/libwm 1.0 9999: A small library for X windows manipulation
-media-fonts/gohufont 2.1-r1: A monospace bitmap font.
+media-fonts/gohufont 2.1-r1: A monospace bitmap font
 media-fonts/siji 9999: An iconic bitmap font based on Stlarch with additional glyphs
 media-fonts/tewi-font 2.0.2 9999: A small bitmap font
 media-sound/cava 0.7.2-r1 9999: Console-based audio visualizer for ALSA
 x11-apps/sx 2.1.3 9999: A simpler alternative to xinit
 x11-misc/bgs 0.8-r1 9999: Simple background setter based on imlib2
 x11-misc/closest 1.1 9999: focus the closest window in a given direction
-x11-misc/colt 1.1 9999: A small color temperature and brightness controller for X11.
+x11-misc/colt 1.1 9999: A small color temperature and brightness controller for X11
 x11-misc/devour 10 9999: Window Manager agnostic swallowing feature for terminal emulators
 x11-misc/lemonbar 1.3 9999: A featherweight, lemon-scented, bar based on xcb
 x11-misc/n30f 2.0 9999: A quick hack to display an image in a non-wm-managed window
 x11-misc/paperview 9999: focus the closest window in a given direction
-x11-misc/pmenu 2.0 9999: A pie-menu in xlib and imlib2.
-x11-misc/pywal 3.3.0 9999: Generate and change color-schemes on the fly.
-x11-misc/setroot 2.0.2 9999: simple X background setter inspired by imlibsetroot and feh.
+x11-misc/pmenu 2.0 9999: A pie-menu in xlib and imlib2
+x11-misc/pywal 3.3.0 9999: Generate and change color-schemes on the fly
+x11-misc/setroot 2.0.2 9999: simple X background setter inspired by imlibsetroot and feh
 x11-misc/sflock 9999: focus the closest window in a given direction
 x11-misc/sxlock 1.1 9999: simple X screen locker
 x11-misc/unclutter-xfixes 9999: A rewrite of unclutter using the x11-xfixes extension
@@ -32,7 +32,7 @@ x11-misc/xprompt 2.2.1 9999: A dmenu rip-off with contextual completion
 x11-wm/9wm 1.4.1 9999: X11 window manager inspired by Plan 9's rio
 x11-wm/shod 0.2.2 9999: hybrid (floating and tiling) window manager
 x11-wm/sowm 1.6 9999: An itsy bitsy floating window manager
-x11-wm/tinywm 1.1 9999: The tiniest window manager.
+x11-wm/tinywm 1.1 9999: The tiniest window manager
 x11-wm/wmutils 1.5 9999: Set of window manipulation tools
 x11-wm/wmutils-contrib 9999: Useful bits and pieces for wmutils
 x11-wm/wmutils-opt 1.0 9999: Optional addons to wmutils
