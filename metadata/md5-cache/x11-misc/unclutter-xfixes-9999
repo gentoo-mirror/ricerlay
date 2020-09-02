@@ -8,5 +8,5 @@ LICENSE=MIT
 PROPERTIES=live
 RDEPEND=x11-libs/libXi dev-libs/libev x11-libs/libX11 x11-libs/libXfixes
 SLOT=0
-_eclasses_=git-r3	8ec5b53812bce105ae7943930e4660f8
+_eclasses_=git-r3	3e7ec3d6619213460c85e2aa48398441
 _md5_=2a34bdddb1b6d58bd409550e682e5f82

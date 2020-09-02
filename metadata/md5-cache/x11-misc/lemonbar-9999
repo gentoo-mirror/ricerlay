@@ -9,5 +9,5 @@ LICENSE=MIT
 PROPERTIES=live
 RDEPEND=x11-libs/libxcb xft? ( x11-libs/libXft ) dev-lang/perl
 SLOT=0
-_eclasses_=git-r3	8ec5b53812bce105ae7943930e4660f8
+_eclasses_=git-r3	3e7ec3d6619213460c85e2aa48398441
 _md5_=20ddb7f579457e4615b6f719bdaddebe
