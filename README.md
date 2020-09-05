@@ -1,6 +1,8 @@
 ricerlay
 ========
 
+[![Build Status](https://travis-ci.org/azahi/ricerlay.svg?branch=master)](https://travis-ci.org/azahi/ricerlay)
+
 Purpose
 -------
 
