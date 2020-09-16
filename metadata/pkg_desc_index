@@ -15,6 +15,7 @@ x11-misc/bgs 0.8-r1 9999: Simple background setter based on imlib2
 x11-misc/closest 1.1 9999: focus the closest window in a given direction
 x11-misc/colt 1.1 9999: A small color temperature and brightness controller for X11
 x11-misc/devour 10 9999: Window Manager agnostic swallowing feature for terminal emulators
+x11-misc/herbe 1.0.0: Daemon-less notifications without D-Bus. Minimal and lightweight.
 x11-misc/lemonbar 1.3 9999: A featherweight, lemon-scented, bar based on xcb
 x11-misc/n30f 2.0 9999: A quick hack to display an image in a non-wm-managed window
 x11-misc/paperview 9999: focus the closest window in a given direction
