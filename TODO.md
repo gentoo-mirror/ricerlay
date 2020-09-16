@@ -29,7 +29,6 @@
 * [x11-misc/dxhd](https://github.com/dakyskye/dxhd)
 * [x11-misc/flashfocus](https://github.com/fennerm/flashfocus)
 * [x11-misc/fsv](https://github.com/mcuelenaere/fsv)
-* [x11-misc/herbe](https://github.com/dudik/herbe)
 * [x11-misc/jgmenu](https://github.com/johanmalm/jgmenu)
 * [x11-misc/keynav](https://github.com/jordansissel/keynav)
 * [x11-misc/oomox](https://github.com/actionless/oomox)
