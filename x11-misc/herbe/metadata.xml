@@ -5,4 +5,7 @@
 		<email>casey@theavilas.org</email>
 		<name>casey</name>
 	</maintainer>
+	<upstream>
+		<remote-id type="github">dudik/herbe</remote-id>
+	</upstream>
 </pkgmetadata>
