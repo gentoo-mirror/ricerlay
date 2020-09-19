@@ -2,6 +2,7 @@ ricerlay
 ========
 
 [![Build Status](https://travis-ci.org/azahi/ricerlay.svg?branch=master)](https://travis-ci.org/azahi/ricerlay)
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/56c784f1bec84deaa2cf621a75a97c21)](https://www.codacy.com/manual/azahi/ricerlay?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=azahi/ricerlay&amp;utm_campaign=Badge_Grade)
 
 Purpose
 -------
@@ -18,15 +19,19 @@ Installing and Using
 
 With [layman](https://wiki.gentoo.org/wiki/Layman):
 
-    layman -a ricerlay
-    layman -S
-    emerge <package>
+```
+layman -a ricerlay
+layman -S
+emerge <package>
+```
 
 With [eselect-repository](https://github.com/mgorny/eselect-repository):
 
-    eselect repository enable ricerlay
-    emerge --sync
-    emerge <package>
+```
+eselect repository enable ricerlay
+emerge --sync
+emerge <package>
+```
 
 Getting Involved
 ----------------
@@ -50,27 +55,31 @@ be found [here](https://devmanual.gentoo.org/ebuild-writing/index.html).
 Example workflow could look like this (commented out are actions that
 you perform outside of your shell):
 
-    ### Fork this repository ###
-    git clone https://github.com/<your github username>/ricerlay.git
-    ### Make changes ###
-    ### Test build everything ###
-    ### Check for QA errors ###
-    git add <your changes>
-    git commit -m "<category>/<package>: <Briefly state your changes>"
-    git push -f origin master
-    ### Create a PR ###
+```
+### Fork this repository ###
+git clone https://github.com/<your github username>/ricerlay.git
+### Make changes ###
+### Test build everything ###
+### Check for QA errors ###
+git add <your changes>
+git commit -m "<category>/<package>: <Briefly state your changes>"
+git push -f origin master
+### Create a PR ###
+```
 
 Consider commiting changes *per-package*, **don't** commit multiple
 packages at once. Make sure you write a **meaningful commit message**
 (you can use two or three words if you think that changes are
 self-explanatory), for example:
 
-    some-category/some-package: Briefly state yor changes
+```
+some-category/some-package: Briefly state yor changes
 
-    If needed, explain the reasoning behind your commit or provide information,
-    changelog, upstream notes and etc. related to the packae in the subsection
-    of the commit message. Remember to reference GitHub tracked issues if you
-    are working on a fix, for example: Bug #420, Fixes #69.
+If needed, explain the reasoning behind your commit or provide information,
+changelog, upstream notes and etc. related to the packae in the subsection
+of the commit message. Remember to reference GitHub tracked issues if you
+are working on a fix, for example: Bug #420, Fixes #69.
+```
 
 Check your changes with `app-portage/repoman` and `app-portage/overlint` for
 possible QA errors.
