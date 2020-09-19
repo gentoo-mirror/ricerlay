@@ -1,11 +1,12 @@
-DEFINED_PHASES=install
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=install unpack
 DEPEND=sys-libs/ncurses
 DESCRIPTION=Clock using lib ncurses
 EAPI=7
 HOMEPAGE=https://github.com/xorg62/tty-clock
-KEYWORDS=~amd64 ~x86
 LICENSE=BSD
+PROPERTIES=live
 RDEPEND=sys-libs/ncurses
 SLOT=0
-SRC_URI=https://github.com/xorg62/tty-clock/archive/v2.3.tar.gz -> tty-clock-2.3.tar.gz
+_eclasses_=git-r3	3e7ec3d6619213460c85e2aa48398441
 _md5_=e80c7e9d6077f95412f5a9d8e65f54b0
