@@ -1,11 +1,9 @@
-ricerlay
-========
+# ricerlay
 
 [![Build Status](https://travis-ci.org/azahi/ricerlay.svg?branch=master)](https://travis-ci.org/azahi/ricerlay)
 [![Codacy Badge](https://app.codacy.com/project/badge/Grade/56c784f1bec84deaa2cf621a75a97c21)](https://www.codacy.com/manual/azahi/ricerlay?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=azahi/ricerlay&amp;utm_campaign=Badge_Grade)
 
-Purpose
--------
+## Purpose
 
 The main Gentoo package tree sometimes lacks *crucial* packages
 for ricing. Some of them do exist but, for example, live ebuilds are not
@@ -14,12 +12,11 @@ Gentoo as a favorable distribution for those who want to customize their
 desktop, without polluting and going through a hassle of adding packages
 to the main tree (read as: *to avoid responsibility*).
 
-Installing and Using
---------------------
+## Installing and Using
 
 With [layman](https://wiki.gentoo.org/wiki/Layman):
 
-```
+``` text
 layman -a ricerlay
 layman -S
 emerge <package>
@@ -27,14 +24,13 @@ emerge <package>
 
 With [eselect-repository](https://github.com/mgorny/eselect-repository):
 
-```
+``` text
 eselect repository enable ricerlay
 emerge --sync
 emerge <package>
 ```
 
-Getting Involved
-----------------
+## Getting Involved
 
 Please do contribute!
 
@@ -55,7 +51,7 @@ be found [here](https://devmanual.gentoo.org/ebuild-writing/index.html).
 Example workflow could look like this (commented out are actions that
 you perform outside of your shell):
 
-```
+``` text
 ### Fork this repository ###
 git clone https://github.com/<your github username>/ricerlay.git
 ### Make changes ###
@@ -72,7 +68,7 @@ packages at once. Make sure you write a **meaningful commit message**
 (you can use two or three words if you think that changes are
 self-explanatory), for example:
 
-```
+``` text
 some-category/some-package: Briefly state yor changes
 
 If needed, explain the reasoning behind your commit or provide information,
