@@ -47,6 +47,8 @@ upstream versions. Please report any issues rearding that.
 Make sure you are familiar with how to write and how to format ebuilds
 and ebuild repositories. The Gentoo's official and up-to-date guide can
 be found [here](https://devmanual.gentoo.org/ebuild-writing/index.html).
+In addition, to make a good PR that will surely get accepted, I recommend
+reading [this](https://wiki.gentoo.org/wiki/GitHub_Pull_Requests).
 
 Example workflow could look like this (commented out are actions that
 you perform outside of your shell):
