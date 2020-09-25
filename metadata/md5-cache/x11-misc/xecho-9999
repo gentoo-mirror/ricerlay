@@ -1,0 +1,12 @@
+BDEPEND=virtual/pkgconfig >=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=configure install unpack
+DEPEND=media-libs/fontconfig x11-libs/libX11 x11-libs/libXext x11-libs/libXft
+DESCRIPTION=Render text messages to the screen with minimal dependencies
+EAPI=7
+HOMEPAGE=https://github.com/cbdevnet/xecho
+LICENSE=WTFPL-2
+PROPERTIES=live
+RDEPEND=media-libs/fontconfig x11-libs/libX11 x11-libs/libXext x11-libs/libXft
+SLOT=0
+_eclasses_=git-r3	3e7ec3d6619213460c85e2aa48398441
+_md5_=505832b61c94ef33097208de0654b0dc
