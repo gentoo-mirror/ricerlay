@@ -1,0 +1,12 @@
+BDEPEND=doc? ( dev-libs/libxslt app-text/docbook-xsl-stylesheets ) >=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=compile install unpack
+DESCRIPTION=Framebuffer grabber
+EAPI=7
+HOMEPAGE=https://github.com/jwilk/fbcat
+IUSE=doc
+LICENSE=GPL-2
+PROPERTIES=live
+RDEPEND=media-libs/netpbm sys-apps/kbd
+SLOT=0
+_eclasses_=git-r3	3e7ec3d6619213460c85e2aa48398441
+_md5_=dc01b4616e7447719668593a70f808bb
