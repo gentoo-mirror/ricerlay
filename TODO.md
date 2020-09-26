@@ -1,6 +1,5 @@
 # TODO
 -   [app-misc/asciiquarium](https://github.com/cmatsuoka/asciiquarium)
--   [app-misc/fbcat](https://github.com/jwilk/fbcat)
 -   [app-misc/ly](https://github.com/cylgom/ly)
 -   [app-misc/slmenu](https://bitbucket.org/rafaelgg/slmenu)
 -   [app-misc/stag](https://github.com/seenaburns/stag)
