@@ -5,9 +5,7 @@
 		<email>azahi@teknik.io</email>
 		<name>azahi</name>
 	</maintainer>
-	<use>
-		<flag name="pcf">
-			Install pcf files instead of bdf
-		</flag>
-	</use>
+	<upstream>
+		<remote-id type="github">stark/siji</remote-id>
+	</upstream>
 </pkgmetadata>
