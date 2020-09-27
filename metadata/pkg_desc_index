@@ -7,7 +7,7 @@ app-misc/tty-clock 2.3 9999: Clock using lib ncurses
 app-misc/ufetch 0.2 9999: Tiny system info for Unix-like operating systems
 app-misc/zenbu 9999: Jinja2 + YAML based config templater
 dev-libs/libwm 1.0 9999: A small library for X windows manipulation
-media-fonts/gohufont 2.1-r1: A monospace bitmap font
+media-fonts/gohufont 2.1-r1 9999: A monospace bitmap font
 media-fonts/siji 9999: An iconic bitmap font based on Stlarch with additional glyphs
 media-fonts/tewi-font 2.0.2 9999: A small bitmap font
 media-sound/cava 0.7.2-r1 9999: Console-based audio visualizer for ALSA
