@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile install postinst postrm setup
+DEPEND=X? ( >=x11-apps/mkfontscale-1.2.0 media-fonts/encodings ) X? ( media-gfx/ebdftopcf )
+DESCRIPTION=A small bitmap font
+EAPI=7
+HOMEPAGE=https://github.com/lucy/tewi-font
+IUSE=X X
+KEYWORDS=~amd64 ~x86
+LICENSE=MIT
+SLOT=0
+SRC_URI=https://github.com/lucy/tewi-font/archive/2.0.2.tar.gz -> tewi-font-2.0.2.tar.gz
+_eclasses_=font	dd073b36fe3fd8b868c23bc23209db45	font-ebdftopcf	e23db122fd578442f37e3e79267eedd8
+_md5_=7f477fc5de7ea28b87d9a37a69aa73b2
