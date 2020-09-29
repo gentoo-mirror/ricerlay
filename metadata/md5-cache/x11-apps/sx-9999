@@ -1,7 +1,7 @@
 BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
 DEFINED_PHASES=compile install unpack
 DEPEND=x11-apps/xauth x11-base/xorg-server[xorg]
-DESCRIPTION=A simpler alternative to xinit
+DESCRIPTION=Start an xorg server
 EAPI=7
 HOMEPAGE=https://github.com/Earnestly/sx
 LICENSE=MIT
@@ -9,4 +9,4 @@ PROPERTIES=live
 RDEPEND=x11-apps/xauth x11-base/xorg-server[xorg]
 SLOT=0
 _eclasses_=git-r3	3e7ec3d6619213460c85e2aa48398441
-_md5_=d16f1d1a65895ca1b893745fdcfbad55
+_md5_=fbffb3157e6d1098525f672b8a0cdd11
