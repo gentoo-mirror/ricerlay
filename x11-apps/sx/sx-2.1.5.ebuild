@@ -8,7 +8,7 @@ if [[ ${PV} == *9999 ]]; then
 	EGIT_REPO_URI="https://github.com/Earnestly/sx.git"
 fi
 
-DESCRIPTION="A simpler alternative to xinit"
+DESCRIPTION="Start an xorg server"
 HOMEPAGE="https://github.com/Earnestly/sx"
 
 if [[ ${PV} == *9999 ]]; then
@@ -30,13 +30,11 @@ DEPEND="
 RDEPEND="${DEPEND}"
 BDEPEND=""
 
-src_compile()
-{
-	true
+src_compile() {
+	:;
 }
 
-src_install()
-{
+src_install() {
 	dobin ${PN}
 	doman ${PN}.1
 }
