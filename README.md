@@ -100,3 +100,8 @@ And finally, consider using indentation guides from `.editorconfig` file
 so that the code in the overlay stays uniform. In short, both `.ebuild`
 and `.xml` files are using tabs. You are free to do what you consider the best
 in the `${FILESDIR}` with patches and whatnot.
+
+## Links
+
+-   [Development Repository](https://github.com/azahi/ricerlay)
+-   [Gentoo Mirror](https://github.com/gentoo-mirror/ricerlay)
