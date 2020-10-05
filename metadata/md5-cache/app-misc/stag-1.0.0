@@ -1,0 +1,11 @@
+DEFINED_PHASES=install
+DEPEND=sys-libs/ncurses
+DESCRIPTION=Streaming bar graphs. For stats and stuff.
+EAPI=7
+HOMEPAGE=https://github.com/seenaburns/stag
+KEYWORDS=~amd64 ~x86
+LICENSE=BSD
+RDEPEND=sys-libs/ncurses
+SLOT=0
+SRC_URI=https://github.com/seenaburns/stag/archive/v1.0.0.tar.gz -> stag-1.0.0.tar.gz
+_md5_=63da9e989c59d622d98deaaa0e3d1119
