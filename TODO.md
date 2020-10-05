@@ -2,7 +2,6 @@
 -   [app-misc/asciiquarium](https://github.com/cmatsuoka/asciiquarium)
 -   [app-misc/ly](https://github.com/cylgom/ly)
 -   [app-misc/slmenu](https://bitbucket.org/rafaelgg/slmenu)
--   [app-misc/stag](https://github.com/seenaburns/stag)
 -   [app-misc/urnn](https://github.com/nixers-projects/urnn)
 -   [app-shells/lsix](https://github.com/hackerb9/lsix)
 -   [games-misc/sl](https://github.com/mtoyoda/sl)
