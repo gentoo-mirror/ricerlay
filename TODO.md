@@ -44,7 +44,6 @@
 -   [x11-misc/xremap](https://github.com/k0kubun/xremap)
 -   [x11-terms/xiate](https://www.uninformativ.de/git/xiate)
 -   [x11-terms/xst](https://github.com/neeasade/xst)
--   [x11-wm/custard](https://github.com/Sweets/custard)
 -   [x11-wm/katriawm](https://www.uninformativ.de/git/katriawm)
 -   [x11-wm/mwm](https://github.com/stackfield/mwm)
 -   [x11-wm/sdorfehs](https://github.com/jcs/sdorfehs)
