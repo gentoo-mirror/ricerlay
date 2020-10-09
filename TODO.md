@@ -46,5 +46,4 @@
 -   [x11-terms/xst](https://github.com/neeasade/xst)
 -   [x11-wm/katriawm](https://www.uninformativ.de/git/katriawm)
 -   [x11-wm/mwm](https://github.com/stackfield/mwm)
--   [x11-wm/sdorfehs](https://github.com/jcs/sdorfehs)
 -   [x11-wm/xlambda](https://github.com/kori/Xlambda)
