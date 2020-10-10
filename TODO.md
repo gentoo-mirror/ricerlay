@@ -34,7 +34,6 @@
 -   [x11-misc/spoon](https://git.2f30.org/spoon)
 -   [x11-misc/swall](https://www.uninformativ.de/git/swall)
 -   [x11-misc/swarp](https://tools.suckless.org/x/swarp/)
--   [x11-misc/tdrop](https://github.com/noctuid/tdrop)
 -   [x11-misc/twmn](https://github.com/sboli/twmn)
 -   [x11-misc/wpgtk](https://github.com/deviantfero/wpgtk)
 -   [x11-misc/xbattmon](https://git.2f30.org/xbattmon/log.html)
