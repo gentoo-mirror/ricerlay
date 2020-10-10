@@ -4,11 +4,9 @@
 EAPI=7
 
 if [[ ${PV} == *9999 ]]; then
-	SCM="git-r3"
+	inherit git-r3
 	EGIT_REPO_URI="https://github.com/wmutils/libwm"
 fi
-
-inherit eutils ${SCM}
 
 DESCRIPTION="A small library for X windows manipulation"
 HOMEPAGE="https://github.com/wmutils/libwm"
@@ -29,6 +27,9 @@ DEPEND="x11-libs/libxcb"
 RDEPEND="${DEPEND}"
 BDEPEND=""
 
+DOCS=( README.md )
+
 src_install() {
-	emake DESTDIR="${D}" PREFIX="/usr" install
+	emake install DESTDIR="${D}" PREFIX="/usr"
+	einstalldocs
 }
