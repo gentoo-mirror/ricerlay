@@ -24,7 +24,7 @@ x11-misc/paperview 9999: focus the closest window in a given direction
 x11-misc/pmenu 2.0 9999: A pie-menu in xlib and imlib2
 x11-misc/pywal 3.3.0 9999: Generate and change color-schemes on the fly
 x11-misc/setroot 2.0.2 9999: simple X background setter inspired by imlibsetroot and feh
-x11-misc/sflock 9999: focus the closest window in a given direction
+x11-misc/sflock 9999-r1: Simple X display locker, with basic user feedback
 x11-misc/sxlock 1.1 9999: simple X screen locker
 x11-misc/tdrop 0.3.0 9999: A Glorified WM-Independent Dropdown Creator
 x11-misc/unclutter-xfixes 9999: A rewrite of unclutter using the x11-xfixes extension
