@@ -4,9 +4,11 @@
 EAPI=7
 
 if [[ ${PV} == *9999 ]]; then
-	inherit git-r3
-	EGIT_REPO_URI="https://github.com/Gottox/bgs"
+	SCM="git-r3"
+	EGIT_REPO_URI="https://github.com/Gottox/bgs.git"
 fi
+
+inherit toolchain-funcs ${SCM}
 
 DESCRIPTION="Simple background setter based on imlib2"
 HOMEPAGE="https://github.com/Gottox/bgs"
@@ -23,22 +25,29 @@ LICENSE="MIT"
 SLOT="0"
 IUSE="xinerama"
 
-DEPEND="xinerama? ( x11-libs/libXinerama )
+DEPEND="
+	xinerama? ( x11-libs/libXinerama )
 	media-libs/imlib2
 	x11-libs/libX11
 "
 RDEPEND="${DEPEND}"
+BDEPEND="virtual/pkgconfig"
 
 src_prepare() {
-	default
+	sed	-e "s/^CC.*/CC = $(tc-getCC)/" \
+		-i config.mk || die
 
-	if use xinerama; then
-		sed -e '/XINERAMALIBS/d' -i config.mk || die
-		sed -e '/XINERAMAFLAGS/d' -i config.mk || die
+	if ! use xinerama; then
+		sed -e '/XINERAMALIBS =/d' \
+			-e '/XINERAMAFLAGS =/d' \
+			-i config.mk || die
 	fi
+
+	default
 }
 
 src_install() {
 	dobin ${PN}
 	doman ${PN}.1
+	dodoc README
 }
