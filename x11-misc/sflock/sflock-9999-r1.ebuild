@@ -8,9 +8,9 @@ if [[ ${PV} == *9999 ]]; then
 	EGIT_REPO_URI="https://github.com/benruijl/sflock.git"
 fi
 
-inherit eutils ${SCM}
+inherit toolchain-funcs ${SCM}
 
-DESCRIPTION="focus the closest window in a given direction"
+DESCRIPTION="Simple X display locker, with basic user feedback"
 HOMEPAGE="https://github.com/benruijl/sflock"
 
 if [[ ${PV} == *9999 ]]; then
@@ -25,16 +25,22 @@ LICENSE="MIT"
 SLOT="0"
 IUSE=""
 
-DEPEND="x11-libs/libX11"
+DEPEND="
+	x11-libs/libX11
+	x11-libs/libXext
+"
 RDEPEND="${DEPEND}"
 BDEPEND=""
 
 src_prepare() {
-	sed -e 's/-Os //' -i config.mk || die
-	sed -e 's/-s //' -i config.mk || die
+	sed -e "s/ -Os / ${CFLAGS} /" \
+		-e "s/ -s / ${LDFLAGS} /" \
+		-e "s/ cc/ $(tc-getCC)/" \
+		-i config.mk || die
+
 	default
 }
 
 src_install() {
-	emake PREFIX="/usr" DESTDIR="${D}" install
+	emake install DESTDIR="${D}" PREFIX="/usr"
 }
