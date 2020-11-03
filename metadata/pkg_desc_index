@@ -35,6 +35,7 @@ x11-misc/xgetres 9999: A dmenu rip-off with contextual completion
 x11-misc/xkb-switch 1.6.0: Switch your X keyboard layouts from the command line
 x11-misc/xmenu 4.3.0 9999: a x11 menu utility
 x11-misc/xnotify 0.3.2 9999: read notifications from stdin and display them on the screen
+x11-misc/xob 0.2 9999: A lightweight overlay volume (or anything) bar
 x11-misc/xprompt 2.2.1 9999: A dmenu rip-off with contextual completion
 x11-wm/9wm 1.4.1 9999: X11 window manager inspired by Plan 9's rio
 x11-wm/custard 9999: Manual tiling window manager
