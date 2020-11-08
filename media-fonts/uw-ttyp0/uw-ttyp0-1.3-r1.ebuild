@@ -22,6 +22,7 @@ BDEPEND="
 
 src_configure() {
 	./configure prefix="${EPREFIX}/usr" pcfdir="${FONTDIR}"
+	sed -e 's/^ENCODINGS =.*/ENCODINGS = uni/' -i TARGETS.dat || die
 }
 
 src_install() {
