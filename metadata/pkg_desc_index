@@ -10,7 +10,7 @@ app-misc/zenbu 9999: Jinja2 + YAML based config templater
 media-fonts/gohufont 2.1-r1 9999: A monospace bitmap font
 media-fonts/siji 9999-r1: An iconic bitmap font based on Stlarch with additional glyphs
 media-fonts/tewi-font 2.0.2-r1 9999-r1: A small bitmap font
-media-fonts/uw-ttyp0 1.3: Bitmap programmer's fonts
+media-fonts/uw-ttyp0 1.3-r1: Bitmap programmer's fonts
 media-sound/cava 0.7.2-r1 9999: Console-based audio visualizer for ALSA
 x11-apps/sx 2.1.5 9999: Start an xorg server
 x11-libs/libwm 1.0 9999: A small library for X windows manipulation
@@ -48,3 +48,4 @@ x11-wm/tinywm 1.1 9999: The tiniest window manager
 x11-wm/wmutils 1.5 9999: Set of window manipulation tools
 x11-wm/wmutils-contrib 9999: Useful bits and pieces for wmutils
 x11-wm/wmutils-opt 1.0 9999: Optional addons to wmutils
+x11-wm/xwm 0.0.2 9999: A tiny XCB floating window manager
