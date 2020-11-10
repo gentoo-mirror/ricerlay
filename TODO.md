@@ -9,7 +9,6 @@
 -   [media-fonts/font-logos](https://github.com/lukas-w/font-logos)
 -   [media-fonts/jackey-font](https://nonty.net/font/freefont/jackey-font)
 -   [media-fonts/leggie](https://github.com/wiktor-b/leggie)
--   [media-fonts/uw-ttyp0](https://people.mpi-inf.mpg.de/~uwe/misc/uw-ttyp0/)
 -   [media-gfc/shot](https://github.com/rr-/shot)
 -   [media-gfx/giph](https://github.com/phisch/giph)
 -   [media-sound/cli-visualizer](https://github.com/dpayne/cli-visualizer)
