@@ -1,0 +1,11 @@
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=install postinst prepare unpack
+DESCRIPTION=Simple system info written in C
+EAPI=7
+HOMEPAGE=https://github.com/13-CF/afetch
+IUSE=savedconfig
+LICENSE=GPL-3
+PROPERTIES=live
+SLOT=0
+_eclasses_=git-r3	3e7ec3d6619213460c85e2aa48398441	portability	e8f7ef3a41965b21a734550f8a94c1c6	savedconfig	0bc45cb0429003c9abc73bae24a0d5bd
+_md5_=3eb4bb22717e9004ca957cd94b7759c4
