@@ -1,0 +1,12 @@
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=install unpack
+DEPEND=dev-lang/perl
+DESCRIPTION=Virtual Richard M. Stallman
+EAPI=7
+HOMEPAGE=https://github.com/z411/vrms-gentoo
+LICENSE=GPL-2
+PROPERTIES=live
+RDEPEND=dev-lang/perl
+SLOT=0
+_eclasses_=git-r3	3e7ec3d6619213460c85e2aa48398441
+_md5_=213c0d610158b27644e7e93473aa667e

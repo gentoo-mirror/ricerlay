@@ -7,6 +7,7 @@ app-misc/seq2gif 0.10.3 9999: Console-based audio visualizer for ALSA
 app-misc/stag 1.0.0 9999: Streaming bar graphs. For stats and stuff.
 app-misc/tty-clock 2.3 9999: Clock using lib ncurses
 app-misc/ufetch 0.2 9999: Tiny system info for Unix-like operating systems
+app-misc/vrms-gentoo 9999: Virtual Richard M. Stallman
 app-misc/zenbu 9999: Jinja2 + YAML based config templater
 media-fonts/gohufont 2.1-r1 9999: A monospace bitmap font
 media-fonts/siji 9999-r1: An iconic bitmap font based on Stlarch with additional glyphs
