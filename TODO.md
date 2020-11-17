@@ -33,6 +33,7 @@
 -   [x11-misc/spoon](https://git.2f30.org/spoon)
 -   [x11-misc/swall](https://www.uninformativ.de/git/swall)
 -   [x11-misc/swarp](https://tools.suckless.org/x/swarp/)
+-   [x11-misc/tiramisu](https://github.com/Sweets/tiramisu)
 -   [x11-misc/twmn](https://github.com/sboli/twmn)
 -   [x11-misc/wpgtk](https://github.com/deviantfero/wpgtk)
 -   [x11-misc/xbattmon](https://git.2f30.org/xbattmon/log.html)
@@ -44,4 +45,5 @@
 -   [x11-terms/xst](https://github.com/neeasade/xst)
 -   [x11-wm/katriawm](https://www.uninformativ.de/git/katriawm)
 -   [x11-wm/mwm](https://github.com/stackfield/mwm)
+-   [x11-wm/prism](https://github.com/Sweets/prism)
 -   [x11-wm/xlambda](https://github.com/kori/Xlambda)
