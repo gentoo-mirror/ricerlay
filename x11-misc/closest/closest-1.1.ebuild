@@ -8,9 +8,9 @@ if [[ ${PV} == *9999 ]]; then
 	EGIT_REPO_URI="https://github.com/phillbush/closest.git"
 fi
 
-inherit eutils ${SCM}
+inherit toolchain-funcs ${SCM}
 
-DESCRIPTION="focus the closest window in a given direction"
+DESCRIPTION="Focus the closest window in a given direction"
 HOMEPAGE="https://github.com/phillbush/closest"
 
 if [[ ${PV} == *9999 ]]; then
@@ -25,12 +25,32 @@ LICENSE="MIT"
 SLOT="0"
 IUSE=""
 
-DEPEND="x11-libs/libX11
+DEPEND="
+	x11-libs/libX11
 	x11-libs/libXinerama
 "
 RDEPEND="${DEPEND}"
 BDEPEND=""
 
+DOCS=( README.md )
+
+src_prepare() {
+	default
+
+	sed -e '/^CPPFLAGS/d' \
+		-e 's/^CFLAGS =/CFLAGS +=/g' \
+		-e 's/^LDFLAGS =/LDFLAGS +=/g' \
+		-i config.mk || die
+}
+
+src_compile() {
+	emake \
+		CC="$(tc-getCC)"
+}
+
 src_install() {
-	emake PREFIX= DESTDIR="${D}" MANPREFIX="/usr/share/man" install
+	emake install \
+		DESTDIR="${D}" \
+		PREFIX="${EPREFIX}/usr"
+	einstalldocs
 }
