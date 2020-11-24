@@ -4,18 +4,20 @@
 EAPI=7
 
 if [[ ${PV} == *9999 ]]; then
-	inherit git-r3
+	SCM="git-r3"
 	EGIT_REPO_URI="https://github.com/salman-abedin/devour.git"
 fi
 
-DESCRIPTION="Window Manager agnostic swallowing feature for terminal emulators"
+inherit toolchain-funcs "${SCM}"
+
+DESCRIPTION="Window manager agnostic swallowing feature for terminal emulators"
 HOMEPAGE="https://github.com/salman-abedin/devour"
 
 if [[ ${PV} == *9999 ]]; then
 	SRC_URI=""
 	KEYWORDS=""
 else
-	SRC_URI="https://github.com/salman-abedin/devour/archive/v${PV}.tar.gz"
+	SRC_URI="https://github.com/salman-abedin/devour/archive/${PV}.tar.gz"
 	KEYWORDS="~amd64 ~x86"
 fi
 
@@ -27,6 +29,23 @@ DEPEND="x11-libs/libX11"
 RDEPEND="${DEPEND}"
 BDEPEND=""
 
+DOCS=( README.md )
+
+src_prepare() {
+	default
+
+	sed -e 's/^CFLAGS =/CFLAGS +=/' \
+		-e 's/ -s //g' \
+		-e 's/ -O2//g' \
+		-i Makefile || die
+}
+
+src_compile() {
+	emake \
+		CC="$(tc-getCC)"
+}
+
 src_install() {
-	emake DESTDIR="${D}" PREFIX="/usr" install
+	dobin ${PN}
+	einstalldocs
 }
