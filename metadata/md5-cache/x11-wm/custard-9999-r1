@@ -1,5 +1,5 @@
 BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
-DEFINED_PHASES=install unpack
+DEFINED_PHASES=compile install prepare unpack
 DEPEND=dev-libs/libpcre x11-libs/xcb-util x11-libs/xcb-util-wm
 DESCRIPTION=Manual tiling window manager
 EAPI=7
@@ -8,5 +8,5 @@ LICENSE=MIT
 PROPERTIES=live
 RDEPEND=dev-libs/libpcre x11-libs/xcb-util x11-libs/xcb-util-wm
 SLOT=0
-_eclasses_=git-r3	3e7ec3d6619213460c85e2aa48398441
-_md5_=7d5aef63ce49da412ea4fc89bf022431
+_eclasses_=git-r3	3e7ec3d6619213460c85e2aa48398441	multilib	d410501a125f99ffb560b0c523cd3d1e	toolchain-funcs	605c126bed8d87e4378d5ff1645330cb
+_md5_=3472718b9cf455695d1f40ebf7ace1a8
