@@ -4,9 +4,11 @@
 EAPI=7
 
 if [[ ${PV} == *9999 ]]; then
-	inherit git-r3
+	SCM="git-r3"
 	EGIT_REPO_URI="https://github.com/9wm/9wm.git"
 fi
+
+inherit toolchain-funcs "${SCM}"
 
 DESCRIPTION="X11 window manager inspired by Plan 9's rio"
 HOMEPAGE="https://github.com/9wm/9wm"
@@ -31,6 +33,11 @@ RDEPEND="${DEPEND}"
 BDEPEND=""
 
 DOCS=( CREDITS.md CUSTOMIZING.md README.md )
+
+src_compile() {
+	emake \
+		CC="$(tc-getCC)"
+}
 
 src_install() {
 	default
