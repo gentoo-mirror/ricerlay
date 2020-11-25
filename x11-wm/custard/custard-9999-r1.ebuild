@@ -4,9 +4,11 @@
 EAPI=7
 
 if [[ ${PV} == *9999 ]]; then
-	inherit git-r3
+	SCM="git-r3"
 	EGIT_REPO_URI="https://github.com/comfies/custard.git"
 fi
+
+inherit toolchain-funcs "${SCM}"
 
 DESCRIPTION="Manual tiling window manager"
 HOMEPAGE="https://github.com/comfies/custard"
@@ -31,7 +33,24 @@ DEPEND="
 RDEPEND="${DEPEND}"
 BDEPEND=""
 
+src_prepare() {
+	default
+
+	sed -e 's/^CFLAGS.*=/CFLAGS +=/' \
+		-e 's/ -O2//' \
+		-e 's/^CPPFLAGS.*=/CPPFLAGS +=/' \
+		-e 's/^LDFLAGS.*=/LDFLAGS +=/' \
+		-i Makefile || die
+}
+
+src_compile() {
+	emake \
+		CC="$(tc-getCC)"
+}
+
 src_install() {
-	emake install DESTDIR="${D}" PREFIX="/usr"
-	newman man/custard.man ${PN}.1
+	emake install \
+		DESTDIR="${D}" \
+		PREFIX="${EPREFIX}/usr"
+	newman man/${PN}.man ${PN}.1
 }
