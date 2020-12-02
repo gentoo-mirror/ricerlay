@@ -35,6 +35,7 @@
 -   [x11-misc/swarp](https://tools.suckless.org/x/swarp/)
 -   [x11-misc/tiramisu](https://github.com/Sweets/tiramisu)
 -   [x11-misc/twmn](https://github.com/sboli/twmn)
+-   [x11-misc/vala-panel](https://github.com/rilian-la-te/vala-panel)
 -   [x11-misc/wpgtk](https://github.com/deviantfero/wpgtk)
 -   [x11-misc/xbattmon](https://git.2f30.org/xbattmon/log.html)
 -   [x11-misc/xchainkeys](https://github.com/hbekel/xchainkeys)
