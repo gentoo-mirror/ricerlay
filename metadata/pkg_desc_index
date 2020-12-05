@@ -3,7 +3,6 @@ app-misc/bdfresize 1.5: A tool for resizing BDF format fonts
 app-misc/colors 9999: extract colors from pictures
 app-misc/fbcat 9999: Framebuffer grabber
 app-misc/pfetch 0.6.0-r1 9999: A pretty system information tool written in POSIX sh
-app-misc/seq2gif 0.10.3 9999: Console-based audio visualizer for ALSA
 app-misc/stag 1.0.0 9999: Streaming bar graphs. For stats and stuff.
 app-misc/tty-clock 2.3 9999: Clock using lib ncurses
 app-misc/ufetch 0.2 9999: Tiny system info for Unix-like operating systems
@@ -41,7 +40,7 @@ x11-misc/xecho 9999: Render text messages to the screen with minimal dependencie
 x11-misc/xgetres 9999: A dmenu rip-off with contextual completion
 x11-misc/xkb-switch 1.6.0: Switch your X keyboard layouts from the command line
 x11-misc/xmenu 4.3.0 9999: a x11 menu utility
-x11-misc/xnotify 0.3.2 9999: read notifications from stdin and display them on the screen
+x11-misc/xnotify 0.8.1 9999: read notifications from stdin and display them on the screen
 x11-misc/xob 0.2 9999: A lightweight overlay volume (or anything) bar
 x11-misc/xprompt 2.2.1 9999: A dmenu rip-off with contextual completion
 x11-wm/9wm 1.4.1-r1 9999-r1: X11 window manager inspired by Plan 9's rio
