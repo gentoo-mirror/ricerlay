@@ -8,7 +8,7 @@ if [[ ${PV} == *9999 ]]; then
 	EGIT_REPO_URI="https://github.com/salman-abedin/devour.git"
 fi
 
-inherit toolchain-funcs "${SCM}"
+inherit toolchain-funcs ${SCM}
 
 DESCRIPTION="Window manager agnostic swallowing feature for terminal emulators"
 HOMEPAGE="https://github.com/salman-abedin/devour"
