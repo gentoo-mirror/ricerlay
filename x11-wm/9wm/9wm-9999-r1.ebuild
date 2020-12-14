@@ -8,7 +8,7 @@ if [[ ${PV} == *9999 ]]; then
 	EGIT_REPO_URI="https://github.com/9wm/9wm.git"
 fi
 
-inherit toolchain-funcs "${SCM}"
+inherit toolchain-funcs ${SCM}
 
 DESCRIPTION="X11 window manager inspired by Plan 9's rio"
 HOMEPAGE="https://github.com/9wm/9wm"
