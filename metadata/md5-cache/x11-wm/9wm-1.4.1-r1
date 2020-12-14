@@ -1,12 +1,12 @@
-BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
-DEFINED_PHASES=compile install unpack
+DEFINED_PHASES=compile install
 DEPEND=x11-libs/libX11 x11-libs/libXext
 DESCRIPTION=X11 window manager inspired by Plan 9's rio
 EAPI=7
 HOMEPAGE=https://github.com/9wm/9wm
+KEYWORDS=~amd64 ~x86
 LICENSE=MIT
-PROPERTIES=live
 RDEPEND=x11-libs/libX11 x11-libs/libXext
 SLOT=0
-_eclasses_=git-r3	3e7ec3d6619213460c85e2aa48398441	multilib	d410501a125f99ffb560b0c523cd3d1e	toolchain-funcs	605c126bed8d87e4378d5ff1645330cb
+SRC_URI=https://github.com/9wm/9wm/archive/1.4.1.tar.gz -> 9wm-1.4.1.tar.gz
+_eclasses_=multilib	d410501a125f99ffb560b0c523cd3d1e	toolchain-funcs	605c126bed8d87e4378d5ff1645330cb
 _md5_=2ced29ae0c2ad28419e72897555091ae
