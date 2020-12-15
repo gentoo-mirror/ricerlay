@@ -8,5 +8,5 @@ KEYWORDS=~amd64 ~x86
 LICENSE=MIT
 SLOT=0
 SRC_URI=https://github.com/lucy/tewi-font/archive/2.0.2.tar.gz -> tewi-font-2.0.2.tar.gz
-_eclasses_=font	dd073b36fe3fd8b868c23bc23209db45	font-ebdftopcf	e23db122fd578442f37e3e79267eedd8
+_eclasses_=font	dd073b36fe3fd8b868c23bc23209db45	font-ebdftopcf	d0bee18f810ff88c236f6cc09737fb2a
 _md5_=7f477fc5de7ea28b87d9a37a69aa73b2
