@@ -52,4 +52,4 @@ x11-wm/tinywm 1.1 9999: The tiniest window manager
 x11-wm/wmutils 1.5 9999: Set of window manipulation tools
 x11-wm/wmutils-contrib 9999: Useful bits and pieces for wmutils
 x11-wm/wmutils-opt 1.0 9999: Optional addons to wmutils
-x11-wm/xwm 0.1.3 9999: A tiny XCB floating window manager
+x11-wm/xwm 0.1.4 9999: A tiny XCB floating window manager
