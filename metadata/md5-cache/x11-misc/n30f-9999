@@ -9,4 +9,4 @@ PROPERTIES=live
 RDEPEND=x11-libs/cairo[X] x11-libs/libxcb
 SLOT=0
 _eclasses_=git-r3	3e7ec3d6619213460c85e2aa48398441
-_md5_=bbd4b0d7ef6498d407d8ba667283bffb
+_md5_=6c5db00ee33c7d21c393d2e1f9d86a1d

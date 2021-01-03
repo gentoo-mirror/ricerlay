@@ -10,4 +10,4 @@ PROPERTIES=live
 RDEPEND=x11-libs/libxcb xft? ( x11-libs/libXft ) dev-lang/perl
 SLOT=0
 _eclasses_=git-r3	3e7ec3d6619213460c85e2aa48398441
-_md5_=20ddb7f579457e4615b6f719bdaddebe
+_md5_=76d1adcca9cd7fb089e4322519b866dd

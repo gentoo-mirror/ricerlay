@@ -10,4 +10,4 @@ PROPERTIES=live
 RDEPEND=media-libs/freetype:2 x11-libs/libX11 x11-libs/libXft
 SLOT=0
 _eclasses_=git-r3	3e7ec3d6619213460c85e2aa48398441	portability	b2e405b5a3f051d58b50c9ffc6b883cf	savedconfig	0bc45cb0429003c9abc73bae24a0d5bd
-_md5_=e6a43dac5378879eaf32befcee52d1e3
+_md5_=dcaa4edf0832ce59719201bed6cf9a43

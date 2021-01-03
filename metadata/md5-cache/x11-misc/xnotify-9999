@@ -9,4 +9,4 @@ PROPERTIES=live
 RDEPEND=media-libs/fontconfig media-libs/imlib2 x11-libs/libX11 x11-libs/libXft x11-libs/libXinerama
 SLOT=0
 _eclasses_=git-r3	3e7ec3d6619213460c85e2aa48398441
-_md5_=59b1b35de7b2f3b5150b1c23dc459eae
+_md5_=61fc48cdc0fd64f5d8e0af87b248fe35

@@ -9,4 +9,4 @@ PROPERTIES=live
 RDEPEND=media-libs/libpng
 SLOT=0
 _eclasses_=git-r3	3e7ec3d6619213460c85e2aa48398441
-_md5_=28f610a15e5529d12807741e0e208eb4
+_md5_=e6dde5ac377b87a5de70d6d050c95e44

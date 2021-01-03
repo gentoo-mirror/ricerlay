@@ -10,4 +10,4 @@ PROPERTIES=live
 RDEPEND=x11-wm/wmutils killwa? ( x11-libs/libxcb x11-libs/xcb-util-wm ) deletelock? ( x11-apps/xprop ) focus_watcher? ( x11-wm/wmutils-opt ) switch_grid? ( x11-wm/wmutils-opt )
 SLOT=0
 _eclasses_=git-r3	3e7ec3d6619213460c85e2aa48398441
-_md5_=3ed674bfd46fc5d09ee634d457253b53
+_md5_=f314a3ea7ae50b552b3a0c1783117c48

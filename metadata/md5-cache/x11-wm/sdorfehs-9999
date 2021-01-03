@@ -10,4 +10,4 @@ PROPERTIES=live
 RDEPEND=x11-libs/libX11 x11-libs/libXft x11-libs/libXrandr x11-libs/libXtst
 SLOT=0
 _eclasses_=git-r3	3e7ec3d6619213460c85e2aa48398441	portability	b2e405b5a3f051d58b50c9ffc6b883cf	savedconfig	0bc45cb0429003c9abc73bae24a0d5bd
-_md5_=f4a01db2f9f0c255396d99844a9685eb
+_md5_=3df7eb4b45ba26aea20dd2272f9fb2e2

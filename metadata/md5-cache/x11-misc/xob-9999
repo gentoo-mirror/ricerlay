@@ -9,4 +9,4 @@ PROPERTIES=live
 RDEPEND=dev-libs/libconfig x11-libs/libX11
 SLOT=0
 _eclasses_=git-r3	3e7ec3d6619213460c85e2aa48398441
-_md5_=8c25bd36e1a91b9741d087d18271e55d
+_md5_=fb2c90e6f3a1a12b351a54cb7d9d1779

@@ -9,4 +9,4 @@ LICENSE=WTFPL-2
 SLOT=0
 SRC_URI=https://github.com/hchargois/gohufont/archive/2.1.tar.gz -> gohufont-2.1.tar.gz
 _eclasses_=font	dd073b36fe3fd8b868c23bc23209db45	font-ebdftopcf	55a13ddfd89119edce2c55e8bb8e5581
-_md5_=26ef0ebb87e7729abf7af6daf6d2d104
+_md5_=48c4edecaaa9a2c6794c94aad544d02f

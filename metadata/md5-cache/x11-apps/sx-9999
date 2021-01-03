@@ -9,4 +9,4 @@ PROPERTIES=live
 RDEPEND=x11-apps/xauth x11-base/xorg-server[xorg]
 SLOT=0
 _eclasses_=git-r3	3e7ec3d6619213460c85e2aa48398441
-_md5_=fbffb3157e6d1098525f672b8a0cdd11
+_md5_=69c82df3147e1a061bbd69b866c3a8f0

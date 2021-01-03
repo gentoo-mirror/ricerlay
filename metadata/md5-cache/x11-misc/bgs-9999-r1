@@ -10,4 +10,4 @@ PROPERTIES=live
 RDEPEND=xinerama? ( x11-libs/libXinerama ) media-libs/imlib2 x11-libs/libX11
 SLOT=0
 _eclasses_=git-r3	3e7ec3d6619213460c85e2aa48398441	multilib	d410501a125f99ffb560b0c523cd3d1e	toolchain-funcs	605c126bed8d87e4378d5ff1645330cb
-_md5_=82c3d3ec61049be1dd5f88df254f47b2
+_md5_=e978158e00e8d5ce8dd7e6beb31e0d4a
