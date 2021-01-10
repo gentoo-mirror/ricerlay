@@ -39,7 +39,7 @@ x11-misc/xclickroot 1.0 9999: click on root window and run a command
 x11-misc/xecho 9999: Render text messages to the screen with minimal dependencies
 x11-misc/xgetres 9999: A dmenu rip-off with contextual completion
 x11-misc/xkb-switch 1.6.0: Switch your X keyboard layouts from the command line
-x11-misc/xmenu 4.5.0 9999: a x11 menu utility
+x11-misc/xmenu 4.5.4 9999: a x11 menu utility
 x11-misc/xnotify 0.8.1 9999: read notifications from stdin and display them on the screen
 x11-misc/xob 0.2 9999: A lightweight overlay volume (or anything) bar
 x11-misc/xprompt 2.2.1 9999: A dmenu rip-off with contextual completion
