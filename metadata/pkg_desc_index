@@ -25,6 +25,7 @@ x11-misc/focus 9999: Focus the closest window in a given direction
 x11-misc/herbe 1.0.0-r1 9999: Daemon-less notifications without D-Bus
 x11-misc/kunst 9999: Download and display album art or display embedded album art
 x11-misc/lemonbar 1.3 9999: A featherweight, lemon-scented, bar based on xcb
+x11-misc/lsd 9999: List desktops
 x11-misc/n30f 2.0 9999: A quick hack to display an image in a non-wm-managed window
 x11-misc/paperview 9999: focus the closest window in a given direction
 x11-misc/pmenu 2.0 9999: A pie-menu in xlib and imlib2
@@ -39,6 +40,7 @@ x11-misc/xclickroot 1.0 9999: click on root window and run a command
 x11-misc/xecho 9999: Render text messages to the screen with minimal dependencies
 x11-misc/xgetres 9999: A dmenu rip-off with contextual completion
 x11-misc/xkb-switch 1.6.0: Switch your X keyboard layouts from the command line
+x11-misc/xlocatemouse 20.05 9999: Find your X11 mouse pointer
 x11-misc/xmenu 4.5.4 9999: a x11 menu utility
 x11-misc/xnotify 0.8.1 9999: read notifications from stdin and display them on the screen
 x11-misc/xob 0.2 9999: A lightweight overlay volume (or anything) bar
