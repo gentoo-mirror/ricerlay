@@ -39,7 +39,6 @@
 -   [x11-misc/wpgtk](https://github.com/deviantfero/wpgtk)
 -   [x11-misc/xbattmon](https://git.2f30.org/xbattmon/log.html)
 -   [x11-misc/xchainkeys](https://github.com/hbekel/xchainkeys)
--   [x11-misc/xlocatemouse](https://www.uninformativ.de/git/xlocatemouse)
 -   [x11-misc/xpointerbarrier](https://www.uninformativ.de/git/xpointerbarrier)
 -   [x11-misc/xremap](https://github.com/k0kubun/xremap)
 -   [x11-terms/xiate](https://www.uninformativ.de/git/xiate)
