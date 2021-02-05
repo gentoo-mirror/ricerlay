@@ -8,7 +8,7 @@ if [[ ${PV} == *9999 ]]; then
 	EGIT_REPO_URI="https://github.com/phillbush/pmenu.git"
 fi
 
-inherit eutils ${SCM}
+inherit toolchain-funcs ${SCM}
 
 DESCRIPTION="A pie-menu in xlib and imlib2"
 HOMEPAGE="https://github.com/phillbush/pmenu"
@@ -31,10 +31,30 @@ DEPEND="media-libs/fontconfig
 	x11-libs/libXext
 	x11-libs/libXft
 	x11-libs/libXinerama
+	x11-libs/libXrender
 "
 RDEPEND="${DEPEND}"
 BDEPEND=""
 
+DOCS=( README.md )
+
+src_prepare() {
+	default
+
+	sed -e '/^CPPFLAGS/d' \
+		-e 's/^CFLAGS =/CFLAGS +=/g' \
+		-e 's/^LDFLAGS =/LDFLAGS +=/g' \
+		-i config.mk || die
+}
+
+src_compile() {
+	emake \
+		CC="$(tc-getCC)"
+}
+
 src_install() {
-	emake PREFIX= DESTDIR="${D}" MANPREFIX="/usr/share/man" install
+	emake install \
+		DESTDIR="${D}" \
+		PREFIX="${EPREFIX}/usr"
+	einstalldocs
 }
