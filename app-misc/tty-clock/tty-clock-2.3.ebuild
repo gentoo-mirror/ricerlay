@@ -25,11 +25,16 @@ IUSE=""
 
 DEPEND="sys-libs/ncurses"
 RDEPEND="${DEPEND}"
-BDEPEND=""
+BDEPEND="virtual/pkgconfig"
 
-DOCS=( README )
+DOCS=(
+	README
+)
 
 src_install() {
+	emake install \
+		DESTDIR="${D}" \
+		PREFIX="${EPREFIX}/usr"
+
 	einstalldocs
-	emake DESTDIR="${D}" PREFIX="/usr" install
 }
