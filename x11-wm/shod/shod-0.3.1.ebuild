@@ -4,9 +4,11 @@
 EAPI=7
 
 if [[ ${PV} == *9999 ]]; then
-	inherit git-r3
+	SCM="git-r3"
 	EGIT_REPO_URI="https://github.com/phillbush/shod.git"
 fi
+
+inherit toolchain-funcs ${SCM}
 
 DESCRIPTION="Hybrid (floating and tiling) window manager"
 HOMEPAGE="https://github.com/phillbush/shod"
@@ -30,6 +32,11 @@ DEPEND="
 RDEPEND="${DEPEND}"
 BDEPEND=""
 
+DOCS=(
+	README
+	examples/
+)
+
 src_prepare() {
 	sed -e '/^CPPFLAGS/d' \
 		-e 's/FLAGS =/FLAGS +=/g' \
@@ -38,8 +45,15 @@ src_prepare() {
 	default
 }
 
+src_compile() {
+	emake \
+		CC="$(tc-getCC)"
+}
+
 src_install() {
 	emake install \
 		DESTDIR="${D}" \
 		PREFIX="${EPREFIX}/usr"
+
+	einstalldocs
 }
