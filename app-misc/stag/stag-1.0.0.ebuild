@@ -4,11 +4,13 @@
 EAPI=7
 
 if [[ ${PV} == *9999 ]]; then
-	inherit git-r3
+	SCM="git-r3"
 	EGIT_REPO_URI="https://github.com/seenaburns/stag.git"
 fi
 
-DESCRIPTION="Streaming bar graphs. For stats and stuff."
+inherit toolchain-funcs ${SCM}
+
+DESCRIPTION="Streaming bar graphs for stats and stuff"
 HOMEPAGE="https://github.com/seenaburns/stag"
 
 if [[ ${PV} == *9999 ]]; then
@@ -27,10 +29,21 @@ DEPEND="sys-libs/ncurses"
 RDEPEND="${DEPEND}"
 BDEPEND=""
 
-PATCHES=(
-	"${FILESDIR}/${P}-ncurses.patch"
-)
+src_prepare() {
+	sed -e 's/^CFLAGS=/CFLAGS+=/' \
+		-e 's/-lncurses/-lncurses -ltinfo/' \
+		-i Makefile || die
+
+	default
+}
+
+src_compile() {
+	emake \
+		CC="$(tc-getCC)"
+}
 
 src_install() {
-	emake DESTDIR="${D}" PREFIX="${EPREFIX}/usr" install
+	emake install \
+		DESTDIR="${D}" \
+		PREFIX="${EPREFIX}/usr"
 }
