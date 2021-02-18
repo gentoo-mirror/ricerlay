@@ -39,7 +39,7 @@ x11-misc/xbanish 1.7 9999: Banish the mouse cursor when typing, show it again wh
 x11-misc/xclickroot 1.0 9999: click on root window and run a command
 x11-misc/xecho 9999: Render text messages to the screen with minimal dependencies
 x11-misc/xgetres 9999: A dmenu rip-off with contextual completion
-x11-misc/xkb-switch 1.6.0: Switch your X keyboard layouts from the command line
+x11-misc/xkb-switch 1.8.5 9999: Switch your X keyboard layouts from the command line
 x11-misc/xlocatemouse 20.05 9999: Find your X11 mouse pointer
 x11-misc/xmenu 4.5.4 9999: a x11 menu utility
 x11-misc/xnotify 0.8.1 9999: read notifications from stdin and display them on the screen
