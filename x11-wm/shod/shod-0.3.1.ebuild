@@ -8,9 +8,9 @@ if [[ ${PV} == *9999 ]]; then
 	EGIT_REPO_URI="https://github.com/phillbush/shod.git"
 fi
 
-inherit eutils ${SCM}
+inherit toolchain-funcs ${SCM}
 
-DESCRIPTION="hybrid (floating and tiling) window manager"
+DESCRIPTION="Hybrid (floating and tiling) window manager"
 HOMEPAGE="https://github.com/phillbush/shod"
 
 if [[ ${PV} == *9999 ]]; then
@@ -25,12 +25,35 @@ LICENSE="MIT"
 SLOT="0"
 IUSE=""
 
-DEPEND="x11-libs/libX11
+DEPEND="
+	x11-libs/libX11
 	x11-libs/libXinerama
 "
 RDEPEND="${DEPEND}"
 BDEPEND=""
 
+DOCS=(
+	README
+	examples/
+)
+
+src_prepare() {
+	sed -e '/^CPPFLAGS/d' \
+		-e 's/FLAGS =/FLAGS +=/g' \
+		-i config.mk || die
+
+	default
+}
+
+src_compile() {
+	emake \
+		CC="$(tc-getCC)"
+}
+
 src_install() {
-	emake PREFIX= DESTDIR="${D}" MANPREFIX="/usr/share/man" install
+	emake install \
+		DESTDIR="${D}" \
+		PREFIX="${EPREFIX}/usr"
+
+	einstalldocs
 }

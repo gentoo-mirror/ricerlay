@@ -5,4 +5,7 @@
 		<email>azahi@teknik.io</email>
 		<name>azahi</name>
 	</maintainer>
+	<upstream>
+		<remote-id type="github">phillbush/shod</remote-id>
+	</upstream>
 </pkgmetadata>
