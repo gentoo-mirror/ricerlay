@@ -1,4 +1,4 @@
-BDEPEND=doc? ( dev-libs/libxslt app-text/docbook-xsl-stylesheets ) >=dev-vcs/git-1.8.2.1[curl]
+BDEPEND=doc? ( app-text/docbook-xsl-stylesheets dev-libs/libxslt ) >=dev-vcs/git-1.8.2.1[curl]
 DEFINED_PHASES=compile install unpack
 DESCRIPTION=Framebuffer grabber
 EAPI=7
@@ -9,4 +9,4 @@ PROPERTIES=live
 RDEPEND=media-libs/netpbm sys-apps/kbd
 SLOT=0
 _eclasses_=git-r3	3e7ec3d6619213460c85e2aa48398441
-_md5_=eeb4c9eb9c8974d96c9c953727bef93b
+_md5_=0de1d9d1249981bc90a7689770c091d4

@@ -3,7 +3,7 @@ app-misc/bdfresize 1.5: A tool for resizing BDF format fonts
 app-misc/colors 9999: extract colors from pictures
 app-misc/fbcat 9999: Framebuffer grabber
 app-misc/pfetch 0.6.0-r1 9999: A pretty system information tool written in POSIX sh
-app-misc/stag 1.0.0 9999: Streaming bar graphs. For stats and stuff.
+app-misc/stag 1.0.0 9999: Streaming bar graphs for stats and stuff
 app-misc/tty-clock 2.3 9999: Clock using lib ncurses
 app-misc/ufetch 0.2 9999: Tiny system info for Unix-like operating systems
 app-misc/vrms-gentoo 9999: Virtual Richard M. Stallman

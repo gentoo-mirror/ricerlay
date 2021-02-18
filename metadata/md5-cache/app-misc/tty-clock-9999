@@ -1,4 +1,4 @@
-BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
+BDEPEND=virtual/pkgconfig >=dev-vcs/git-1.8.2.1[curl]
 DEFINED_PHASES=install unpack
 DEPEND=sys-libs/ncurses
 DESCRIPTION=Clock using lib ncurses
@@ -9,4 +9,4 @@ PROPERTIES=live
 RDEPEND=sys-libs/ncurses
 SLOT=0
 _eclasses_=git-r3	3e7ec3d6619213460c85e2aa48398441
-_md5_=94bb1d0e44c390ca77279e26a8e0d55f
+_md5_=95d5d90bca2fde8d44651a0853718c63
