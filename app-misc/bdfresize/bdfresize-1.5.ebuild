@@ -16,7 +16,6 @@ DEPEND=""
 RDEPEND="${DEPEND}"
 BDEPEND=""
 
-src_prepare() {
-	default
-	sed -e '/*malloc();/d' -i charresize.c || die
-}
+PATCHES=(
+	"${FILESDIR}/malloc.patch"
+)

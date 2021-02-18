@@ -8,7 +8,7 @@ if [[ ${PV} == *9999 ]]; then
 	EGIT_REPO_URI="https://github.com/13-CF/afetch.git"
 fi
 
-inherit savedconfig ${SCM}
+inherit savedconfig toolchain-funcs ${SCM}
 
 DESCRIPTION="Simple system info written in C"
 HOMEPAGE="https://github.com/13-CF/afetch"
@@ -29,12 +29,28 @@ DEPEND=""
 RDEPEND="${DEPEND}"
 BDEPEND=""
 
+DOCS=(
+	README.md
+)
+
 src_prepare() {
-	restore_config config.h
+	sed -e 's/^CFLAGS =/CFLAGS +=/' \
+		-e 's/-O2//g' \
+		-i Makefile || die
+
+	restore_config src/config.h
+
 	default
 }
 
+src_compile() {
+	emake \
+		CC="$(tc-getCC)"
+}
+
 src_install() {
-	save_config config.h
-	emake DESTDIR="${D}" PREFIX="${EPREFIX}/usr" install
+	save_config src/config.h
+
+	dobin ${PN}
+	doman src/${PN}.1
 }
