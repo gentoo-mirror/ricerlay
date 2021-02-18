@@ -30,16 +30,21 @@ RDEPEND="${DEPEND}
 "
 BDEPEND="
 	doc? (
-		dev-libs/libxslt
 		app-text/docbook-xsl-stylesheets
+		dev-libs/libxslt
 	)
 "
 
 src_compile() {
 	default
-	use doc && emake -C doc
+
+	if use doc; then
+		emake -C doc
+	fi
 }
 
 src_install() {
-	emake DESTDIR="${D}" PREFIX="/usr" install
+	emake install \
+		DESTDIR="${D}" \
+		PREFIX="${EPREFIX}/usr"
 }
