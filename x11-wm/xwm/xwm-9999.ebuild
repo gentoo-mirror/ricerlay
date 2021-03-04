@@ -32,13 +32,18 @@ DEPEND="
 RDEPEND="${DEPEND}"
 BDEPEND=""
 
-DOCS=( README )
+DOCS=(
+	README
+)
 
 src_compile() {
 	emake CC="$(tc-getCC)"
 }
 
 src_install() {
-	emake DESTDIR="${D}" PREFIX="${EPREFIX}/usr" install
+	emake install \
+		DESTDIR="${D}" \
+		PREFIX="${EPREFIX}/usr"
+
 	einstalldocs
 }
