@@ -1,5 +1,6 @@
 # TODO
 -   [app-misc/asciiquarium](https://github.com/cmatsuoka/asciiquarium)
+-   [app-misc/fetch](https://github.com/KittyKatt/fetch)
 -   [app-misc/ly](https://github.com/cylgom/ly)
 -   [app-misc/slmenu](https://bitbucket.org/rafaelgg/slmenu)
 -   [app-misc/urnn](https://github.com/nixers-projects/urnn)
