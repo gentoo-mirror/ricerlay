@@ -1,12 +1,14 @@
+BDEPEND=X? ( >=x11-apps/mkfontscale-1.2.0 media-fonts/encodings )
 DEFINED_PHASES=compile install postinst postrm setup
-DEPEND=X? ( >=x11-apps/mkfontscale-1.2.0 media-fonts/encodings ) X? ( media-gfx/ebdftopcf )
+DEPEND=X? ( media-gfx/ebdftopcf )
 DESCRIPTION=A monospace bitmap font
 EAPI=7
 HOMEPAGE=http://font.gohu.org/
+INHERIT=font font-ebdftopcf
 IUSE=X X
 KEYWORDS=~amd64 ~x86
 LICENSE=WTFPL-2
 SLOT=0
 SRC_URI=https://github.com/hchargois/gohufont/archive/2.1.tar.gz -> gohufont-2.1.tar.gz
-_eclasses_=font	dd073b36fe3fd8b868c23bc23209db45	font-ebdftopcf	55a13ddfd89119edce2c55e8bb8e5581
+_eclasses_=font	0667878c2b594871023dd1833d05996f	font-ebdftopcf	55a13ddfd89119edce2c55e8bb8e5581
 _md5_=48c4edecaaa9a2c6794c94aad544d02f
