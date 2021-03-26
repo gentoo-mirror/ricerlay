@@ -37,6 +37,7 @@ x11-misc/sxlock 1.1 9999: simple X screen locker
 x11-misc/unclutter-xfixes 9999: A rewrite of unclutter using the x11-xfixes extension
 x11-misc/xbanish 1.7 9999: Banish the mouse cursor when typing, show it again when the mouse moves
 x11-misc/xclickroot 1.0 9999: click on root window and run a command
+x11-misc/xclimsg 9999: Hybrid (floating and tiling) window manager
 x11-misc/xecho 9999: Render text messages to the screen with minimal dependencies
 x11-misc/xgetres 9999: A dmenu rip-off with contextual completion
 x11-misc/xkb-switch 1.8.5 9999: Switch your X keyboard layouts from the command line
