@@ -8,9 +8,9 @@ if [[ ${PV} == *9999 ]]; then
 	EGIT_REPO_URI="https://github.com/phillbush/xclickroot.git"
 fi
 
-inherit eutils ${SCM}
+inherit toolchain-funcs ${SCM}
 
-DESCRIPTION="click on root window and run a command"
+DESCRIPTION="Click on the root window and run a command"
 HOMEPAGE="https://github.com/phillbush/xclickroot"
 
 if [[ ${PV} == *9999 ]]; then
@@ -29,6 +29,27 @@ DEPEND="x11-libs/libX11"
 RDEPEND="${DEPEND}"
 BDEPEND=""
 
+DOCS=(
+	README
+)
+
+src_prepare() {
+	sed -e '/^CPPFLAGS/d' \
+		-e 's/FLAGS =/FLAGS +=/g' \
+		-i config.mk || die
+
+	default
+}
+
+src_compile() {
+	emake \
+		CC="$(tc-getCC)"
+}
+
 src_install() {
-	emake PREFIX= DESTDIR="${D}" MANPREFIX="/usr/share/man" install
+	emake install \
+		DESTDIR="${D}" \
+		PREFIX="${EPREFIX}/usr"
+
+	einstalldocs
 }
