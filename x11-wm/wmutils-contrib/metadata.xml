@@ -9,13 +9,13 @@
 		<flag name="deletelock">
 			Install deletelock.sh
 		</flag>
-		<flag name="focus_watcher">
+		<flag name="focus-watcher">
 			Install focus_watcher.sh
 		</flag>
 		<flag name="killwa">
 			Install killwa
 		</flag>
-		<flag name="switch_grid">
+		<flag name="switch-grid">
 			Install switch_grid.sh
 		</flag>
 	</use>

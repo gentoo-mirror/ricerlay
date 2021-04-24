@@ -19,7 +19,7 @@ if [[ ${PV} == *9999 ]]; then
 	SRC_URI=""
 	KEYWORDS=""
 else
-	SRC_URI="https://github.com/dylanaraps/${PN}/archive/${PV}.tar.gz -> ${PV}.tar.gz"
+	SRC_URI="https://github.com/dylanaraps/pywal/archive/${PV}.tar.gz -> ${P}.tar.gz"
 	KEYWORDS="~amd64 ~x86"
 fi
 

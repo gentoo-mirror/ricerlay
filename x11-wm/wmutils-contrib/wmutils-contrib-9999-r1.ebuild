@@ -12,7 +12,7 @@ EGIT_REPO_URI="https://github.com/wmutils/contrib.git"
 LICENSE="MIT"
 SLOT="0"
 KEYWORDS=""
-IUSE="+deletelock +focus_watcher +killwa +switch_grid"
+IUSE="+deletelock +focus-watcher +killwa +switch-grid"
 
 DEPEND="
 	x11-wm/wmutils
@@ -23,8 +23,8 @@ DEPEND="
 "
 RDEPEND="${DEPEND}
 	deletelock? ( x11-apps/xprop )
-	focus_watcher? ( x11-wm/wmutils-opt )
-	switch_grid? ( x11-wm/wmutils-opt )
+	focus-watcher? ( x11-wm/wmutils-opt )
+	switch-grid? ( x11-wm/wmutils-opt )
 "
 BDEPEND=""
 
@@ -56,8 +56,8 @@ src_install() {
 	dobin underneath.sh
 	dobin wmenu.sh
 	dobin workspace.sh
-	use focus_watcher && dobin focus_watcher.sh
-	use switch_grid && dobin switch_grid.sh
+	use focus-watcher && dobin focus_watcher.sh
+	use switch-grid && dobin switch_grid.sh
 	use deletelock && dobin deletelock.sh
 	if use killwa; then
 		local S="${S}/killwa"

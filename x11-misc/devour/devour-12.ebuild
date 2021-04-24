@@ -17,7 +17,7 @@ if [[ ${PV} == *9999 ]]; then
 	SRC_URI=""
 	KEYWORDS=""
 else
-	SRC_URI="https://github.com/salman-abedin/devour/archive/${PV}.tar.gz"
+	SRC_URI="https://github.com/salman-abedin/devour/archive/${PV}.tar.gz -> ${P}.tar.gz"
 	KEYWORDS="~amd64 ~x86"
 fi
 
@@ -29,7 +29,7 @@ DEPEND="x11-libs/libX11"
 RDEPEND="${DEPEND}"
 BDEPEND=""
 
-DOCS=( README.md )
+DOCS=(README.md)
 
 src_prepare() {
 	default
