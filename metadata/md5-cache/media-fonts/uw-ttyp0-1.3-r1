@@ -2,12 +2,12 @@ BDEPEND=dev-lang/perl x11-apps/bdftopcf X? ( >=x11-apps/mkfontscale-1.2.0 media-
 DEFINED_PHASES=configure install postinst postrm setup
 DESCRIPTION=Bitmap programmer's fonts
 EAPI=7
-HOMEPAGE=http://people.mpi-inf.mpg.de/~uwe/misc/uw-ttyp0/
+HOMEPAGE=https://people.mpi-inf.mpg.de/~uwe/misc/uw-ttyp0
 INHERIT=font
 IUSE=X
 KEYWORDS=~amd64 ~x86
 LICENSE=MIT
 SLOT=0
-SRC_URI=https://people.mpi-inf.mpg.de/~uwe/misc/uw-ttyp0/uw-ttyp0-1.3.tar.gz -> uw-ttyp0-1.3.tar.gz
+SRC_URI=https://people.mpi-inf.mpg.de/~uwe/misc/uw-ttyp0/uw-ttyp0-1.3.tar.gz
 _eclasses_=font	0667878c2b594871023dd1833d05996f
-_md5_=e9cde6d1e47db5adb39822b58db3767c
+_md5_=0caba63540f9d258a3c1e2ce39e8ee31

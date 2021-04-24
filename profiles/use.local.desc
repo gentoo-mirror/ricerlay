@@ -4,6 +4,6 @@
 
 media-sound/cava:system-iniparser - Use the system-wide dev-libs/iniparser instead of bundled.
 x11-wm/wmutils-contrib:deletelock - Install deletelock.sh
-x11-wm/wmutils-contrib:focus_watcher - Install focus_watcher.sh
+x11-wm/wmutils-contrib:focus-watcher - Install focus_watcher.sh
 x11-wm/wmutils-contrib:killwa - Install killwa
-x11-wm/wmutils-contrib:switch_grid - Install switch_grid.sh
+x11-wm/wmutils-contrib:switch-grid - Install switch_grid.sh
