@@ -1,0 +1,13 @@
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=prepare unpack
+DEPEND=x11-libs/libXi dev-libs/libev x11-libs/libX11 x11-libs/libXfixes
+DESCRIPTION=A rewrite of unclutter using the x11-xfixes extension
+EAPI=7
+HOMEPAGE=https://github.com/Airblader/unclutter-xfixes
+INHERIT=git-r3
+LICENSE=MIT
+PROPERTIES=live
+RDEPEND=x11-libs/libXi dev-libs/libev x11-libs/libX11 x11-libs/libXfixes
+SLOT=0
+_eclasses_=git-r3	b8e8c92aa5fe8df7187e466138eb4e52
+_md5_=1db792d34a4aadf619e55a85b7ef0c60

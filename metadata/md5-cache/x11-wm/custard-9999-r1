@@ -1,0 +1,13 @@
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=compile install prepare unpack
+DEPEND=dev-libs/libpcre x11-libs/xcb-util x11-libs/xcb-util-wm
+DESCRIPTION=Manual tiling window manager
+EAPI=7
+HOMEPAGE=https://github.com/comfies/custard
+INHERIT=toolchain-funcs git-r3
+LICENSE=MIT
+PROPERTIES=live
+RDEPEND=dev-libs/libpcre x11-libs/xcb-util x11-libs/xcb-util-wm
+SLOT=0
+_eclasses_=toolchain-funcs	24921b57d6561d87cbef4916a296ada4	multilib	d410501a125f99ffb560b0c523cd3d1e	git-r3	b8e8c92aa5fe8df7187e466138eb4e52
+_md5_=a565dcdf941eb68204735fce6ea00c65

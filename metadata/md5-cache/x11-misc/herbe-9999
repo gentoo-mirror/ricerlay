@@ -1,0 +1,14 @@
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=install postinst prepare unpack
+DEPEND=media-libs/freetype:2 x11-libs/libX11 x11-libs/libXft
+DESCRIPTION=Daemon-less notifications without D-Bus
+EAPI=7
+HOMEPAGE=https://github.com/dudik/herbe
+INHERIT=savedconfig git-r3
+IUSE=savedconfig
+LICENSE=MIT
+PROPERTIES=live
+RDEPEND=media-libs/freetype:2 x11-libs/libX11 x11-libs/libXft
+SLOT=0
+_eclasses_=portability	c10bdc40668533b1faf15b1d89df0303	savedconfig	0bc45cb0429003c9abc73bae24a0d5bd	git-r3	b8e8c92aa5fe8df7187e466138eb4e52
+_md5_=dcaa4edf0832ce59719201bed6cf9a43

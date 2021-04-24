@@ -1,0 +1,14 @@
+BDEPEND=virtual/pkgconfig >=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=install prepare unpack
+DEPEND=xinerama? ( x11-libs/libXinerama ) media-libs/imlib2 x11-libs/libX11
+DESCRIPTION=Simple background setter based on imlib2
+EAPI=7
+HOMEPAGE=https://github.com/Gottox/bgs
+INHERIT=toolchain-funcs git-r3
+IUSE=xinerama
+LICENSE=MIT
+PROPERTIES=live
+RDEPEND=xinerama? ( x11-libs/libXinerama ) media-libs/imlib2 x11-libs/libX11
+SLOT=0
+_eclasses_=toolchain-funcs	24921b57d6561d87cbef4916a296ada4	multilib	d410501a125f99ffb560b0c523cd3d1e	git-r3	b8e8c92aa5fe8df7187e466138eb4e52
+_md5_=e978158e00e8d5ce8dd7e6beb31e0d4a

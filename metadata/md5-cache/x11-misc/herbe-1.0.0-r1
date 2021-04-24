@@ -1,0 +1,14 @@
+DEFINED_PHASES=install postinst prepare
+DEPEND=media-libs/freetype:2 x11-libs/libX11 x11-libs/libXft
+DESCRIPTION=Daemon-less notifications without D-Bus
+EAPI=7
+HOMEPAGE=https://github.com/dudik/herbe
+INHERIT=savedconfig
+IUSE=savedconfig
+KEYWORDS=~amd64 ~x86
+LICENSE=MIT
+RDEPEND=media-libs/freetype:2 x11-libs/libX11 x11-libs/libXft
+SLOT=0
+SRC_URI=https://github.com/dudik/herbe/archive/1.0.0.tar.gz -> herbe-1.0.0.tar.gz
+_eclasses_=portability	c10bdc40668533b1faf15b1d89df0303	savedconfig	0bc45cb0429003c9abc73bae24a0d5bd
+_md5_=dcaa4edf0832ce59719201bed6cf9a43

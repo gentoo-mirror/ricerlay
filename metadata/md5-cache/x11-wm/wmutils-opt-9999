@@ -1,0 +1,13 @@
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=prepare unpack
+DEPEND=x11-libs/libxcb x11-libs/xcb-util
+DESCRIPTION=Optional addons to wmutils
+EAPI=7
+HOMEPAGE=https://github.com/wmutils/opt
+INHERIT=git-r3
+LICENSE=ISC
+PROPERTIES=live
+RDEPEND=x11-libs/libxcb x11-libs/xcb-util
+SLOT=0
+_eclasses_=git-r3	b8e8c92aa5fe8df7187e466138eb4e52
+_md5_=eeacd417b3f35735a6593b4ae96655f5

@@ -1,0 +1,13 @@
+BDEPEND=virtual/pkgconfig >=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=install unpack
+DEPEND=dev-libs/libconfig x11-libs/libX11
+DESCRIPTION=A lightweight overlay volume (or anything) bar
+EAPI=7
+HOMEPAGE=https://github.com/florentc/xob
+INHERIT=git-r3
+LICENSE=GPL-3
+PROPERTIES=live
+RDEPEND=dev-libs/libconfig x11-libs/libX11
+SLOT=0
+_eclasses_=git-r3	b8e8c92aa5fe8df7187e466138eb4e52
+_md5_=fb2c90e6f3a1a12b351a54cb7d9d1779

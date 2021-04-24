@@ -1,0 +1,13 @@
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=install unpack
+DEPEND=media-libs/libpng
+DESCRIPTION=extract colors from pictures
+EAPI=7
+HOMEPAGE=http://git.2f30.org/colors
+INHERIT=git-r3
+LICENSE=MIT
+PROPERTIES=live
+RDEPEND=media-libs/libpng
+SLOT=0
+_eclasses_=git-r3	b8e8c92aa5fe8df7187e466138eb4e52
+_md5_=e6dde5ac377b87a5de70d6d050c95e44

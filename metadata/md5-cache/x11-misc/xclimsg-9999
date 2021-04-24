@@ -1,0 +1,13 @@
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=compile install prepare unpack
+DEPEND=x11-libs/libX11
+DESCRIPTION=Hybrid (floating and tiling) window manager
+EAPI=7
+HOMEPAGE=https://github.com/phillbush/xclimsg
+INHERIT=toolchain-funcs git-r3
+LICENSE=MIT
+PROPERTIES=live
+RDEPEND=x11-libs/libX11
+SLOT=0
+_eclasses_=toolchain-funcs	24921b57d6561d87cbef4916a296ada4	multilib	d410501a125f99ffb560b0c523cd3d1e	git-r3	b8e8c92aa5fe8df7187e466138eb4e52
+_md5_=a6acd02475101bbb8b2cbc7bb2018bc0

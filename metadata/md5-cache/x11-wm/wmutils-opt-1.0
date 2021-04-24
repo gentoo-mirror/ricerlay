@@ -1,0 +1,11 @@
+DEFINED_PHASES=prepare
+DEPEND=x11-libs/libxcb x11-libs/xcb-util
+DESCRIPTION=Optional addons to wmutils
+EAPI=7
+HOMEPAGE=https://github.com/wmutils/opt
+KEYWORDS=~amd64 ~x86
+LICENSE=ISC
+RDEPEND=x11-libs/libxcb x11-libs/xcb-util
+SLOT=0
+SRC_URI=https://github.com/wmutils/opt/archive/v1.0.tar.gz -> wmutils-opt-1.0.tar.gz
+_md5_=eeacd417b3f35735a6593b4ae96655f5

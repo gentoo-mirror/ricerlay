@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile install prepare
+DEPEND=sys-libs/ncurses
+DESCRIPTION=Streaming bar graphs for stats and stuff
+EAPI=7
+HOMEPAGE=https://github.com/seenaburns/stag
+INHERIT=toolchain-funcs
+KEYWORDS=~amd64 ~x86
+LICENSE=BSD
+RDEPEND=sys-libs/ncurses
+SLOT=0
+SRC_URI=https://github.com/seenaburns/stag/archive/v1.0.0.tar.gz -> stag-1.0.0.tar.gz
+_eclasses_=toolchain-funcs	24921b57d6561d87cbef4916a296ada4	multilib	d410501a125f99ffb560b0c523cd3d1e
+_md5_=f75d692a03b5169c9150ac091d2da11f
