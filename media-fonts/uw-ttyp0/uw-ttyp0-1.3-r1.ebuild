@@ -6,8 +6,8 @@ EAPI=7
 inherit font
 
 DESCRIPTION="Bitmap programmer's fonts"
-HOMEPAGE="http://people.mpi-inf.mpg.de/~uwe/misc/uw-ttyp0/"
-SRC_URI="https://people.mpi-inf.mpg.de/~uwe/misc/uw-ttyp0/${P}.tar.gz -> ${P}.tar.gz"
+HOMEPAGE="https://people.mpi-inf.mpg.de/~uwe/misc/uw-ttyp0"
+SRC_URI="https://people.mpi-inf.mpg.de/~uwe/misc/uw-ttyp0/${P}.tar.gz"
 
 LICENSE="MIT"
 SLOT="0"
