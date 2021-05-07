@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile install prepare
+DEPEND=x11-libs/libX11 x11-libs/libXinerama
+DESCRIPTION=Hybrid (floating and tiling) window manager
+EAPI=7
+HOMEPAGE=https://github.com/phillbush/shod
+INHERIT=toolchain-funcs
+KEYWORDS=~amd64 ~x86
+LICENSE=MIT
+RDEPEND=x11-libs/libX11 x11-libs/libXinerama
+SLOT=0
+SRC_URI=https://github.com/phillbush/shod/archive/v0.4.0.tar.gz -> shod-0.4.0.tar.gz
+_eclasses_=toolchain-funcs	24921b57d6561d87cbef4916a296ada4	multilib	d410501a125f99ffb560b0c523cd3d1e
+_md5_=dc3ece9b4f235654b956bf1121c7f7ff
