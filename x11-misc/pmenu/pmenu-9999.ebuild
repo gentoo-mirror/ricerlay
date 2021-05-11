@@ -10,7 +10,7 @@ fi
 
 inherit toolchain-funcs ${SCM}
 
-DESCRIPTION="A pie-menu in xlib and imlib2"
+DESCRIPTION="A pie-menu in Xlib and imlib2"
 HOMEPAGE="https://github.com/phillbush/pmenu"
 
 if [[ ${PV} == *9999 ]]; then
@@ -25,7 +25,8 @@ LICENSE="MIT"
 SLOT="0"
 IUSE=""
 
-DEPEND="media-libs/fontconfig
+DEPEND="
+	media-libs/fontconfig
 	media-libs/imlib2
 	x11-libs/libX11
 	x11-libs/libXext
