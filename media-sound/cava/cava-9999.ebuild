@@ -8,7 +8,7 @@ if [[ ${PV} == *9999 ]]; then
 	EGIT_REPO_URI="https://github.com/karlstav/cava.git"
 fi
 
-inherit linux-info eutils autotools ${SCM}
+inherit autotools ${SCM}
 
 DESCRIPTION="Console-based audio visualizer for ALSA"
 HOMEPAGE="https://github.com/karlstav/cava"
@@ -23,28 +23,28 @@ fi
 
 LICENSE="MIT"
 SLOT="0"
-IUSE="alsa debug portaudio pulseaudio system-iniparser"
+IUSE="alsa debug portaudio pulseaudio sndio system-iniparser"
 
 DEPEND="
-	sci-libs/fftw:3.0
-	sys-libs/ncurses
-	system-iniparser? ( dev-libs/iniparser:4 )
-"
-RDEPEND="${DEPEND}
 	alsa? ( media-libs/alsa-lib )
-	pulseaudio? ( media-sound/pulseaudio )
 	portaudio? ( media-libs/portaudio )
+	pulseaudio? ( media-sound/pulseaudio )
+	sndio? ( media-sound/sndio )
+	system-iniparser? ( dev-libs/iniparser:4 )
+	sys-libs/ncurses
+	sci-libs/fftw:3.0
 "
+RDEPEND="${DEPEND}"
 BDEPEND=""
 
-DOCS=( README.md example_files/ )
-
-CONFIG_CHECK=(
-	SND_ALOOP
+DOCS=(
+	README.md
+	example_files/
 )
 
 src_prepare() {
-	eapply_user
+	default
+
 	eautoreconf
 }
 
@@ -52,10 +52,12 @@ src_configure() {
 	econf \
 		$(use_enable debug) \
 		$(use_enable alsa input-alsa) \
-		$(use_enable pulseaudio input-pulse) \
 		$(use_enable portaudio input-portaudio) \
+		$(use_enable pulseaudio input-pulse) \
+		$(use_enable sndio input-sndio) \
 		$(use_enable system-iniparser) \
-		--docdir="${EREFIX}/usr/share/doc/${PF}"
+		--prefix="${EPREFIX}/usr" \
+		--docdir="${EPREFIX}/usr/share/doc/${PF}"
 }
 
 src_compile() {
@@ -63,6 +65,8 @@ src_compile() {
 }
 
 src_install() {
+	emake install \
+		DESTDIR="${D}"
+
 	einstalldocs
-	emake DESTDIR="${D}" PREFIX=/usr install
 }
