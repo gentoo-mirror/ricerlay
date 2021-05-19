@@ -6,6 +6,9 @@
 		<name>azahi</name>
 	</maintainer>
 	<use>
+		<flag name="sndio">
+			Enable support for the media-sound/sndio backend.
+		</flag>
 		<flag name="system-iniparser">
 			Use the system-wide dev-libs/iniparser instead of bundled.
 		</flag>
