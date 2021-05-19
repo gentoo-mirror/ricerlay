@@ -1,13 +1,13 @@
-BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
-DEFINED_PHASES=compile install prepare unpack
+DEFINED_PHASES=compile install prepare
 DEPEND=media-libs/fontconfig media-libs/imlib2 x11-libs/libX11 x11-libs/libXext x11-libs/libXft x11-libs/libXinerama x11-libs/libXrender
 DESCRIPTION=A pie-menu in Xlib and imlib2
 EAPI=7
 HOMEPAGE=https://github.com/phillbush/pmenu
-INHERIT=toolchain-funcs git-r3
+INHERIT=toolchain-funcs
+KEYWORDS=~amd64 ~x86
 LICENSE=MIT
-PROPERTIES=live
 RDEPEND=media-libs/fontconfig media-libs/imlib2 x11-libs/libX11 x11-libs/libXext x11-libs/libXft x11-libs/libXinerama x11-libs/libXrender
 SLOT=0
-_eclasses_=toolchain-funcs	24921b57d6561d87cbef4916a296ada4	multilib	d410501a125f99ffb560b0c523cd3d1e	git-r3	b8e8c92aa5fe8df7187e466138eb4e52
+SRC_URI=https://github.com/phillbush/pmenu/archive/v2.3.0.tar.gz -> pmenu-2.3.0.tar.gz
+_eclasses_=toolchain-funcs	24921b57d6561d87cbef4916a296ada4	multilib	d410501a125f99ffb560b0c523cd3d1e
 _md5_=62e7c8644cd1154f0cc2c7ca782aaa62
