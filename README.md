@@ -1,7 +1,6 @@
 # ricerlay
 
 [![Build Status](https://travis-ci.org/azahi/ricerlay.svg?branch=master)](https://travis-ci.org/azahi/ricerlay)
-[![Code Quality](https://app.codacy.com/project/badge/Grade/56c784f1bec84deaa2cf621a75a97c21)](https://www.codacy.com/manual/azahi/ricerlay?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=azahi/ricerlay&amp;utm_campaign=Badge_Grade)
 
 ## Purpose
 
@@ -100,11 +99,6 @@ And finally, consider using indentation guides from `.editorconfig` file
 so that the code in the overlay stays uniform. In short, both `.ebuild`
 and `.xml` files are using tabs. You are free to do what you consider the best
 in the `${FILESDIR}` with patches and whatnot.
-
-## Contact
-
--   _IRC:_ `#ricerlay` at [Freenode](https://freenode.net). Ping `azahi` there.
--   _Email:_ Send everything to [azahi@teknik.io](mailto:azahi@teknik.io).
 
 ## Links
 
