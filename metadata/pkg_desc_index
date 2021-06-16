@@ -46,6 +46,7 @@ x11-misc/xmenu 4.5.5 9999: a x11 menu utility
 x11-misc/xnotify 0.8.1 9999: read notifications from stdin and display them on the screen
 x11-misc/xob 0.2 9999: A lightweight overlay volume (or anything) bar
 x11-misc/xprompt 2.4.0 9999: A dmenu rip-off with contextual completion
+x11-misc/xurgent 9999: Set window urgency hint or demands-attention state
 x11-wm/9wm 1.4.1-r1 9999-r1: X11 window manager inspired by Plan 9's rio
 x11-wm/custard 9999-r1: Manual tiling window manager
 x11-wm/mmwm 9999: Modern Minimalistic Window Manager
