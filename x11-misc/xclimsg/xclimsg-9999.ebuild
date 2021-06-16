@@ -29,27 +29,13 @@ DEPEND="x11-libs/libX11"
 RDEPEND="${DEPEND}"
 BDEPEND=""
 
-DOCS=(
-	README
-)
-
-src_prepare() {
-	sed -e '/^CPPFLAGS/d' \
-		-e 's/FLAGS =/FLAGS +=/g' \
-		-i config.mk || die
-
-	default
-}
+DOCS=( README )
 
 src_compile() {
-	emake \
-		CC="$(tc-getCC)"
+	$(tc-getCC) -o ${PN} ${PN}.c -lX11
 }
 
 src_install() {
-	emake install \
-		DESTDIR="${D}" \
-		PREFIX="${EPREFIX}/usr"
-
+	dobin ${PN}
 	einstalldocs
 }
