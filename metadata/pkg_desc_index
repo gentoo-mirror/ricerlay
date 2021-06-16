@@ -16,7 +16,7 @@ media-gfx/xmcp 9999: Universal color picker
 media-sound/cava 0.7.4 9999: Console-based audio visualizer for ALSA
 x11-apps/sx 2.1.5 9999: Start an xorg server
 x11-apps/sxinit 9999: Simple xinit alternative
-x11-libs/libwm 1.0 9999: A small library for X windows manipulation
+x11-libs/libwm 1.2 9999: A small library for X windows manipulation
 x11-misc/bgs 0.8-r2 9999-r1: Simple background setter based on imlib2
 x11-misc/closest 1.1: Focus the closest window in a given direction
 x11-misc/colt 1.1 9999: A small color temperature and brightness controller for X11
