@@ -10,5 +10,5 @@ LICENSE=MIT
 PROPERTIES=live
 RDEPEND=media-libs/freetype:2 x11-libs/libX11 x11-libs/libXft
 SLOT=0
-_eclasses_=portability	c10bdc40668533b1faf15b1d89df0303	savedconfig	0bc45cb0429003c9abc73bae24a0d5bd	git-r3	b8e8c92aa5fe8df7187e466138eb4e52
+_eclasses_=portability	67f9f45165d033b8deb3a84077e87cce	savedconfig	0bc45cb0429003c9abc73bae24a0d5bd	git-r3	b8e8c92aa5fe8df7187e466138eb4e52
 _md5_=dcaa4edf0832ce59719201bed6cf9a43
