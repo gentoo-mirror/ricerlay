@@ -10,5 +10,5 @@ LICENSE=ISC
 PROPERTIES=live
 RDEPEND=x11-libs/libxcb x11-libs/xcb-util
 SLOT=0
-_eclasses_=portability	67f9f45165d033b8deb3a84077e87cce	savedconfig	0bc45cb0429003c9abc73bae24a0d5bd	git-r3	b8e8c92aa5fe8df7187e466138eb4e52
+_eclasses_=portability	d1186f1e621de7b27ddcae82e6253259	savedconfig	0bc45cb0429003c9abc73bae24a0d5bd	git-r3	b8e8c92aa5fe8df7187e466138eb4e52
 _md5_=6722b7d598c2c846c00491de08c6ffa9
