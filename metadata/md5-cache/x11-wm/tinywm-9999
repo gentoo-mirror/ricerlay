@@ -9,5 +9,5 @@ LICENSE=ISC
 PROPERTIES=live
 RDEPEND=x11-libs/libX11
 SLOT=0
-_eclasses_=git-r3	b8e8c92aa5fe8df7187e466138eb4e52
+_eclasses_=git-r3	cc875b0c1e9b3bdac1af0f82f3ba29da
 _md5_=996b4d74f31d0710bdb45827fd19c089
