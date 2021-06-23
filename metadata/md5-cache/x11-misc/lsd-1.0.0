@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile install prepare
+DEPEND=x11-libs/libX11
+DESCRIPTION=List desktops
+EAPI=7
+HOMEPAGE=https://github.com/phillbush/lsd
+INHERIT=toolchain-funcs
+KEYWORDS=~amd64 ~x86
+LICENSE=MIT
+RDEPEND=x11-libs/libX11
+SLOT=0
+SRC_URI=https://github.com/phillbush/lsd/archive/v1.0.0.tar.gz -> lsd-1.0.0.tar.gz
+_eclasses_=toolchain-funcs	9ea1c67b6f8315fdc2568abb674519aa	multilib	97566c1a256d07b00848aa767e38a352
+_md5_=5875a1296608401f05e50a028a2fb962
