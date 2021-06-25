@@ -31,7 +31,7 @@ DEPEND="
 RDEPEND="${DEPEND}"
 BDEPEND=""
 
-DOCS=( README.md )
+DOCS=(README.md)
 
 if [[ ${PV} != *9999 ]]; then
 	S="${WORKDIR}/core-${PV}"

@@ -29,9 +29,7 @@ DEPEND="x11-libs/libX11"
 RDEPEND="${DEPEND}"
 BDEPEND=""
 
-DOCS=(
-	README
-)
+DOCS=(README)
 
 src_prepare() {
 	sed -e '/^CPPFLAGS/d' \

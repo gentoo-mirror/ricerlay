@@ -34,7 +34,7 @@ RDEPEND="${DEPEND}"
 BDEPEND="virtual/pkgconfig"
 
 src_prepare() {
-	sed	-e "s/^CC.*/CC = $(tc-getCC)/" \
+	sed -e "s/^CC.*/CC = $(tc-getCC)/" \
 		-i config.mk || die
 
 	if ! use xinerama; then

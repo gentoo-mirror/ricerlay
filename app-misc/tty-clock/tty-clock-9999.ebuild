@@ -27,9 +27,7 @@ DEPEND="sys-libs/ncurses"
 RDEPEND="${DEPEND}"
 BDEPEND="virtual/pkgconfig"
 
-DOCS=(
-	README
-)
+DOCS=(README)
 
 src_install() {
 	emake install \

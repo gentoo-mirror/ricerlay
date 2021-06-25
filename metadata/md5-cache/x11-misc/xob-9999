@@ -9,5 +9,5 @@ LICENSE=GPL-3
 PROPERTIES=live
 RDEPEND=dev-libs/libconfig x11-libs/libX11
 SLOT=0
-_eclasses_=git-r3	b8e8c92aa5fe8df7187e466138eb4e52
-_md5_=fb2c90e6f3a1a12b351a54cb7d9d1779
+_eclasses_=git-r3	cc875b0c1e9b3bdac1af0f82f3ba29da
+_md5_=501a14944edca92eba3f038da5e40137

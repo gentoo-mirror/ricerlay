@@ -32,7 +32,7 @@ DEPEND="
 RDEPEND="${DEPEND}"
 BDEPEND="virtual/pkgconfig"
 
-DOCS=( README.txt )
+DOCS=(README.txt)
 
 src_configure() {
 	sed -e 's/^all:.*/all: xecho/' -i Makefile || die

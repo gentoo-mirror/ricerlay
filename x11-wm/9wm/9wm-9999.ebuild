@@ -32,7 +32,7 @@ DEPEND="
 RDEPEND="${DEPEND}"
 BDEPEND=""
 
-DOCS=( CREDITS.md CUSTOMIZING.md README.md )
+DOCS=(CREDITS.md CUSTOMIZING.md README.md)
 
 src_compile() {
 	emake \

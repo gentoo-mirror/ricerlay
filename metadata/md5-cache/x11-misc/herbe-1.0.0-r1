@@ -10,5 +10,5 @@ LICENSE=MIT
 RDEPEND=media-libs/freetype:2 x11-libs/libX11 x11-libs/libXft
 SLOT=0
 SRC_URI=https://github.com/dudik/herbe/archive/1.0.0.tar.gz -> herbe-1.0.0.tar.gz
-_eclasses_=portability	c10bdc40668533b1faf15b1d89df0303	savedconfig	0bc45cb0429003c9abc73bae24a0d5bd
-_md5_=dcaa4edf0832ce59719201bed6cf9a43
+_eclasses_=portability	d1186f1e621de7b27ddcae82e6253259	savedconfig	0bc45cb0429003c9abc73bae24a0d5bd
+_md5_=9a4fe77f0859d8a92db059ec574df859

@@ -30,7 +30,7 @@ DEPEND="media-libs/imlib2
 RDEPEND="${DEPEND}"
 BDEPEND=""
 
-DOCS=( README.asciidoc )
+DOCS=(README.asciidoc)
 
 src_compile() {
 	emake xinerama=$(usex xinerama 1 0)

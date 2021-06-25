@@ -34,7 +34,7 @@ if [[ ${PV} != *9999 ]]; then
 	S="${WORKDIR}/opt-${PV}"
 fi
 
-DOCS=( README.md )
+DOCS=(README.md)
 
 src_prepare() {
 	default

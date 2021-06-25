@@ -29,7 +29,7 @@ DEPEND="x11-libs/libX11"
 RDEPEND="${DEPEND}"
 BDEPEND=""
 
-DOCS=( README.md )
+DOCS=(README.md)
 
 src_compile() {
 	restore_config config.h

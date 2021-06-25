@@ -5,23 +5,23 @@ EAPI=7
 
 if [[ ${PV} == *9999 ]]; then
 	SCM="git-r3"
-	EGIT_REPO_URI="https://github.com/lucy/tewi-font.git"
+	EGIT_REPO_URI="https://github.com/stark/siji.git"
 fi
 
 inherit font font-ebdftopcf ${SCM}
 
-DESCRIPTION="A small bitmap font"
-HOMEPAGE="https://github.com/lucy/tewi-font"
+DESCRIPTION="An iconic bitmap font based on Stlarch with additional glyphs"
+HOMEPAGE="https://github.com/stark/siji"
 
 if [[ ${PV} == *9999 ]]; then
 	SRC_URI=""
 	KEYWORDS=""
 else
-	SRC_URI="https://github.com/lucy/tewi-font/archive/${PV}.tar.gz -> ${P}.tar.gz"
+	SRC_URI="https://github.com/stark/siji/archive/${PV}.tar.gz -> ${P}.tar.gz"
 	KEYWORDS="~amd64 ~x86"
 fi
 
-LICENSE="MIT"
+LICENSE="GPL-2"
 SLOT="0"
 IUSE=""
 
@@ -29,9 +29,5 @@ DEPEND=""
 RDEPEND="${DEPEND}"
 BDEPEND=""
 
-DOCS=( README.md )
-FONT_S=( ${S} ${S}/variant )
-
-src_compile() {
-	font-ebdftopcf_src_compile
-}
+DOCS=(Readme.md)
+FONT_S=(${S}/bdf)

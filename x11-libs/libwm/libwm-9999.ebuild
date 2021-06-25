@@ -27,7 +27,7 @@ DEPEND="x11-libs/libxcb"
 RDEPEND="${DEPEND}"
 BDEPEND=""
 
-DOCS=( README.md )
+DOCS=(README.md)
 
 src_install() {
 	emake install DESTDIR="${D}" PREFIX="/usr"

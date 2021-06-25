@@ -3,7 +3,7 @@
 
 EAPI=7
 
-PYTHON_COMPAT=( python3_{7,8,9} )
+PYTHON_COMPAT=(python3_{7,8,9})
 
 inherit distutils-r1 git-r3
 
@@ -16,7 +16,7 @@ SLOT="0"
 KEYWORDS=""
 IUSE=""
 
-DOCS=( README.rst LICENSE example )
+DOCS=(README.rst LICENSE example)
 
 DEPEND="dev-python/argcomplete[${PYTHON_USEDEP}]
 	dev-python/colorlog[${PYTHON_USEDEP}]

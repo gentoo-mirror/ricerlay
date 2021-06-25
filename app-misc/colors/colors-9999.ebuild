@@ -18,7 +18,7 @@ DEPEND="media-libs/libpng"
 RDEPEND="${DEPEND}"
 BDEPEND=""
 
-src_install () {
+src_install() {
 	dobin ${PN}
 	doman ${PN}.1
 }

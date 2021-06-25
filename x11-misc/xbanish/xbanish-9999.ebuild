@@ -31,7 +31,7 @@ DEPEND="
 RDEPEND="${DEPEND}"
 BDEPEND=""
 
-DOCS=( README.md )
+DOCS=(README.md)
 
 src_install() {
 	dobin ${PN}

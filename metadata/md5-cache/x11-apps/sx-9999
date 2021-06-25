@@ -9,5 +9,5 @@ LICENSE=MIT
 PROPERTIES=live
 RDEPEND=x11-apps/xauth x11-base/xorg-server[xorg]
 SLOT=0
-_eclasses_=git-r3	b8e8c92aa5fe8df7187e466138eb4e52
-_md5_=69c82df3147e1a061bbd69b866c3a8f0
+_eclasses_=git-r3	cc875b0c1e9b3bdac1af0f82f3ba29da
+_md5_=6f3e39d3a44e91d40268d2c2c8de771e
