@@ -11,7 +11,7 @@ fi
 DESCRIPTION="A rewrite of unclutter using the x11-xfixes extension"
 HOMEPAGE="https://github.com/Airblader/unclutter-xfixes"
 
-if [[ ${PV} == *9999  ]]; then
+if [[ ${PV} == *9999 ]]; then
 	SRC_URI=""
 	KEYWORDS=""
 else

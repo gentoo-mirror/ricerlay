@@ -32,10 +32,7 @@ DEPEND="
 RDEPEND="${DEPEND}"
 BDEPEND=""
 
-DOCS=(
-	README
-	examples/
-)
+DOCS=(README examples/)
 
 src_prepare() {
 	sed -e '/^CPPFLAGS/d' \

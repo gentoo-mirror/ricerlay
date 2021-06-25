@@ -32,9 +32,7 @@ DEPEND="
 RDEPEND="${DEPEND}"
 BDEPEND=""
 
-DOCS=(
-	README
-)
+DOCS=(README)
 
 src_compile() {
 	emake CC="$(tc-getCC)"

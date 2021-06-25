@@ -37,10 +37,7 @@ DEPEND="
 RDEPEND="${DEPEND}"
 BDEPEND=""
 
-DOCS=(
-	README.md
-	example_files/
-)
+DOCS=(README.md example_files/)
 
 src_prepare() {
 	default

@@ -30,10 +30,9 @@ DEPEND="
 RDEPEND="${DEPEND}"
 BDEPEND="virtual/pkgconfig"
 
-DOCS=( README.md )
+DOCS=(README.md)
 
-src_install()
-{
+src_install() {
 	emake install \
 		DESTDIR="${D}" \
 		prefix="${EPREFIX}/usr" \

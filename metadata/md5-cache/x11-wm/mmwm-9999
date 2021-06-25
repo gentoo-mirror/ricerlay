@@ -11,4 +11,4 @@ PROPERTIES=live
 RDEPEND=x11-libs/libxcb x11-libs/xcb-util
 SLOT=0
 _eclasses_=portability	d1186f1e621de7b27ddcae82e6253259	savedconfig	0bc45cb0429003c9abc73bae24a0d5bd	git-r3	cc875b0c1e9b3bdac1af0f82f3ba29da
-_md5_=6722b7d598c2c846c00491de08c6ffa9
+_md5_=02d9844ef808f60fefdf3240766ff544

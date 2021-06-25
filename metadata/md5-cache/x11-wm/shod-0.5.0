@@ -10,4 +10,4 @@ RDEPEND=x11-libs/libX11 x11-libs/libXinerama
 SLOT=0
 SRC_URI=https://github.com/phillbush/shod/archive/v0.5.0.tar.gz -> shod-0.5.0.tar.gz
 _eclasses_=toolchain-funcs	9ea1c67b6f8315fdc2568abb674519aa	multilib	97566c1a256d07b00848aa767e38a352
-_md5_=dc3ece9b4f235654b956bf1121c7f7ff
+_md5_=5bef702e354ba707165afd5d0851f379

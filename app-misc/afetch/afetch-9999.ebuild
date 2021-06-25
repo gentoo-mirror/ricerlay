@@ -29,9 +29,7 @@ DEPEND=""
 RDEPEND="${DEPEND}"
 BDEPEND=""
 
-DOCS=(
-	README.md
-)
+DOCS=(README.md)
 
 src_prepare() {
 	sed -e 's/^CFLAGS =/CFLAGS +=/' \
