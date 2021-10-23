@@ -11,6 +11,8 @@
 > to get something up-to-date. I'm not going to delete this overlay from
 > Gentoo's official list because as of 2021/10/23 there are still more than a
 > hundred unique clones per week.
+>
+> - azahi
 
 ## Purpose
 
