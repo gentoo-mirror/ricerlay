@@ -11,5 +11,5 @@ LICENSE=MIT
 RDEPEND=xinerama? ( x11-libs/libXinerama ) media-libs/imlib2 x11-libs/libX11
 SLOT=0
 SRC_URI=https://github.com/Gottox/bgs/archive/v0.8.tar.gz -> bgs-0.8.tar.gz
-_eclasses_=toolchain-funcs	badd6e329e1f3e6bee99b35bf8763ce8	multilib	4b66d835ec72e021e359bb81eacfe988
+_eclasses_=toolchain-funcs	badd6e329e1f3e6bee99b35bf8763ce8	multilib	8a0248f83ae77f945d376ff4a7953257
 _md5_=f4c303ee48c590ed9c6a7b922097fe8e
