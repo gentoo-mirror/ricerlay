@@ -3,14 +3,14 @@
 [![Build Status](https://travis-ci.org/azahi/ricerlay.svg?branch=master)](https://travis-ci.org/azahi/ricerlay)
 
 > Starting from September 2021 I've fully shifted my focus to NixOS and no
-> longer have Gentoo Linux installed on any of my machines, thus making me a tad
-> inactive in the Gentoo world. I'm still willing to "passively" maintain this
-> repository through Pull Requests and Issues on GitHub but don't expect timely
-> versions bumps and fixes for build errors from now on. Unless there are big
-> breaking changes upstream you can still use live builds (*-9999) of packages
-> to get something up-to-date. I'm not going to delete this overlay from
-> Gentoo's official list because as of 2021/10/23 there are still more than a
-> hundred unique clones per week.
+> longer have Gentoo Linux installed on any of my machines, thus making me a
+> tad inactive in the Gentoo world. I'm still willing to "passively" maintain
+> this repository through Pull Requests and Issues on GitHub but don't expect
+> timely versions bumps and fixes for build errors from now on. Unless there
+> are big breaking changes upstream you can still use live builds (*-9999) of
+> packages to get something up-to-date. I'm not going to delete this overlay
+> from Gentoo's official list because as of 2021/10/23 there are still more
+> than a hundred unique clones per week.
 >
 > --- azahi
 
@@ -91,20 +91,6 @@ are working on a fix, for example: Bug #420, Fixes #69.
 
 Check your changes with `app-portage/repoman` and `app-portage/overlint` for
 possible QA errors.
-
-If you are submitting a new package, include yourself as a maintainer in the
-`metadata.xml` file, for example:
-
-``` xml
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
-<pkgmetadata>
-    <maintainer type="person">
-        <email>YOUR.ACTUAL.WORKING@EMAIL.HERE</email>
-        <name>YOUR NAME OR HANDLE</name>
-    </maintainer>
-</pkgmetadata>
-```
 
 And finally, consider using indentation guides from `.editorconfig` file so that
 the code in the overlay stays uniform. In short, both `.ebuild` and `.xml` files

@@ -2,8 +2,8 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<maintainer type="person">
-		<email>azahi@teknik.io</email>
-		<name>azahi</name>
+		<email>azat@bahawi.net</email>
+		<name>Azat Bahawi</name>
 	</maintainer>
 	<upstream>
 		<remote-id type="github">phillbush/closest</remote-id>
