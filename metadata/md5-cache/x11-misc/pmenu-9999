@@ -9,5 +9,5 @@ LICENSE=MIT
 PROPERTIES=live
 RDEPEND=media-libs/fontconfig media-libs/imlib2 x11-libs/libX11 x11-libs/libXext x11-libs/libXft x11-libs/libXinerama x11-libs/libXrender
 SLOT=0
-_eclasses_=toolchain-funcs	fd9cde67030b26e479eeadaced488253	multilib	4a33c9008e5ee30cb8840a3fdc24df2b	git-r3	b9ac6f96d2a88edb5b351df634dc5e53
+_eclasses_=toolchain-funcs	fd9cde67030b26e479eeadaced488253	multilib	4fbbbc98f236f1b43acd99476bc3cd85	git-r3	b9ac6f96d2a88edb5b351df634dc5e53
 _md5_=d8eb8818ffa7894399821be17d07ad27
