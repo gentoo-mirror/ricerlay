@@ -9,5 +9,5 @@ LICENSE=GPL-3
 RDEPEND=x11-libs/libX11
 SLOT=0
 SRC_URI=https://github.com/salman-abedin/devour/archive/12.tar.gz -> devour-12.tar.gz
-_eclasses_=toolchain-funcs	fd9cde67030b26e479eeadaced488253	multilib	4fbbbc98f236f1b43acd99476bc3cd85
+_eclasses_=toolchain-funcs	e9da88162e7a3c60376e80c2c2adcdfb	multilib	4fbbbc98f236f1b43acd99476bc3cd85
 _md5_=1d6672399c1f66badb39511d7c7b14a8
